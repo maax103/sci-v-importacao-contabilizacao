@@ -1,3 +1,3 @@
-This is a single page app which helps the selling team to calculate the implantation time needed for the custumers.
+This is a single page app for SCI Visual Practice.
 
-Available on: https://maax103.github.io/scicalculator/
+Available on: https://maax103.github.io/sci-v-importacao-contabilizacao/

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
+export const SystemInfoContainer = styled.div`
   background-color: #f5f5f5;
   width: 900px;
   margin: auto;
@@ -12,27 +12,12 @@ export const CardContainer = styled.div`
     font-size: 1.125rem;
   }
   div {
-    padding: 0.5rem;
-  }
-  label {
-    display: inline-block;
-    margin-top: 0.5rem;
-    input {
-      margin-right: 0.5rem;
-      margin-left: 2rem;
-    }
-    &:first-child {
-      input {
-        margin-left: 0rem;
-      }
-    }
+    margin-top: 1.5rem;
   }
   @media screen and (max-width: 750px) {
     div{
       display: flex;
       flex-direction: column;
-    
-      input{margin-left:0px}
     }
   }
 `;

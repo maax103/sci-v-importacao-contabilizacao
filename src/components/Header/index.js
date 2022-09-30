@@ -7,7 +7,7 @@ export const Header = () => {
     <HeaderContainer>
         <img src={scilogo} alt="sci logo"></img>
         <div>
-            Calculadora de tempo de treinamento
+            Criar plano de contas SCI Visual Practice
         </div>
     </HeaderContainer>
   )
