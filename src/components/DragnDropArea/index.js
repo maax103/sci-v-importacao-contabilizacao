@@ -26,7 +26,7 @@ export const DragnDropArea = () => {
               const parsedCSV = parseCSV(file);
               const csvString = createCSV(parsedCSV);
               setTextString(csvString);
-              downloadCSV('plano_de_contas', csvString);
+              downloadCSV('plano_de_contas.csv', csvString);
             }else{
               setFeedback(failed)
             }
