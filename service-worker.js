@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/maax103/sci-v-importacao-contabilizacao/precache-manifest.0185bb3b64137d4298779a0cdfcbdd90.js"
+  "/sci-v-importacao-contabilizacao/precache-manifest.438de4a9ed000ee3f314a8d2f5756edc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/maax103/sci-v-importacao-contabilizacao/index.html", {
+workbox.routing.registerNavigationRoute("/sci-v-importacao-contabilizacao/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
