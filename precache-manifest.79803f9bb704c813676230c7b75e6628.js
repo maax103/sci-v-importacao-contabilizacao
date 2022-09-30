@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "98a3fc008df24ed87916",
+    "revision": "13f90c32dc0fda10f6be",
     "url": "/sci-v-importacao-contabilizacao/static/css/main.7de47926.chunk.css"
   },
   {
-    "revision": "98a3fc008df24ed87916",
-    "url": "/sci-v-importacao-contabilizacao/static/js/main.98a3fc00.chunk.js"
+    "revision": "13f90c32dc0fda10f6be",
+    "url": "/sci-v-importacao-contabilizacao/static/js/main.13f90c32.chunk.js"
   },
   {
     "revision": "8bce2771ad8010b3ce3d",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sci-v-importacao-contabilizacao/static/media/logo.c47a5a03.png"
   },
   {
-    "revision": "962adb101802c2bf1bb51dfa2b99e0af",
+    "revision": "98f402985f7f62d0f7bc9b2d46a59bb6",
     "url": "/sci-v-importacao-contabilizacao/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sci-v-importacao-contabilizacao/precache-manifest.438de4a9ed000ee3f314a8d2f5756edc.js"
+  "/sci-v-importacao-contabilizacao/precache-manifest.79803f9bb704c813676230c7b75e6628.js"
 );
 
 workbox.clientsClaim();
