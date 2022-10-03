@@ -1,4 +1,3 @@
-import { UserContext } from "../../context/context";
 import React, { useCallback, useContext, useState } from "react";
 import { CardContainer } from "./style";
 import { useDropzone } from "react-dropzone";

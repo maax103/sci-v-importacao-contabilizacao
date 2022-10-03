@@ -1,5 +1,6 @@
 {
   "homepage": "https://maax103.github.io/sci-v-importacao-contabilizacao/",
+  "proxy": "https://localhost:80",
   "name": "calctreinamento",
   "version": "0.1.0",
   "private": true,

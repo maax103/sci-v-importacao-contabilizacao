@@ -1,0 +1,746 @@
+Descrição;Código;DÉBITO;CRÉDITO;INDIVIDUALIZAR
+Provisão - líquido GPS;10004;DCINSS;INSSPGR;NÃO
+Provisão - NF retenção;10011;INSSPGR;CD;NÃO
+Provisão - FGTS;10015;DCFGTS;FGTSPGR;NÃO
+Provisão - Contribuição Social;10016;DCFGTS;FGTSPGR;NÃO
+Provisão - FGTS da GRRF;10017;DCFGTS;GRRFPGR;NÃO
+Provisão - Contribuição Social da GRRF;10018;DCFGTS;GRRFPGR;NÃO
+Provisão - Multa 40%;10020;MULTARESC;GRRFPGR;NÃO
+Provisão - Multa 10%;10021;MULTARESC;GRRFPGR;NÃO
+Provisão - PIS;10022;PIS;PISPGR;NÃO
+Provisão - GRRF Contribuição social patronal;10025;DCSINDPAT;CSPGR;NÃO
+Provisão - NF cooperativa;10033;DCINSS;INSSPGR;NÃO
+Provisão - IR funcionários;10034;SALPGR;IRFPFPGR;NÃO
+Provisão - IR prolaboristas;10035;PROLPGR;IRRFPROPGR;NÃO
+Provisão - IR autônomos;10036;RENDPGR;IRRFPROPGR;NÃO
+Provisão - IR PLR funcionários;10038;PLRPGR;IRRFPLR;NÃO
+Provisão - Compensação NF;11108;INSSPGR;DCINSS;NÃO
+Pagamento - Líquido funcionários;20000;SALPGR;CX;SIM
+Pagamento - Líquidos rescisões;20001;RESCPGR;CX;SIM
+Pagamento - Líquido prolaboristas;20002;PROLPGR;CX;SIM
+Pagamento - Líquido autônomos;20003;RENDPGR;CX;SIM
+Pagamento - Líquido GPS;20004;INSSPGR;CX;NÃO
+Pagamento - Líquido multas GPS;20012;MULTAS;CX;NÃO
+Pagamento - FGTS;20015;FGTSPGR;CX;NÃO
+Pagamento - Contribuição social;20016;FGTSPGR;CX;NÃO
+Pagamento - FGTS da GRRF;20017;GRRFPGR;CX;NÃO
+Pagamento - Contribuição social GRRF;20018;GRRFPGR;CX;NÃO
+Pagamento - Multa GRRF;20019;MULTAS;CX;NÃO
+Pagamento - Multa 40%;20020;GRRFPGR;CX;NÃO
+Pagamento - Multa 10%;20021;GRRFPGR;CX;NÃO
+Pagamento - PIS;20022;PISPGR;CX;NÃO
+Pagamento - Multa PIS;20023;MULTAS;CX;NÃO
+Pagamento - Multa IR;20024;MULTAS;CX;NÃO
+Pagamento - GRCS Patronal;20025;CSPGR;CX;NÃO
+Pagamento - Multas GRCS Patronal;20026;MULTAS;CX;NÃO
+Pagamento - Líquido adiantamento funcionários;20027;ADDPGR;CX;SIM
+Pagamento - Líquido complemento;20028;SALPGR;CX;SIM
+Pagamento - Líquido férias;20029;ADDFERIS;CX;SIM
+Pagamento - Líquido adiantamento 13º;20030;AD13SALPGR;CX;SIM
+Pagamento - Líquido 13º;20031;13SALPGR;CX;SIM
+Pagamento - Líquido complemento 13º;20032;13SALPGR;CX;SIM
+Pagamento - Multa FGTS;20033;MULTAS;CX;NÃO
+Pagamento - IR Funcionários;20036;IRFPFPGR;CX;NÃO
+Pagamento - Líquido PLR funcionários;20037;PLRPGR;CX;SIM
+Pagamento - IR prolaboristas;20038;IRRFPROPGR;CX;NÃO
+Pagamento - IR autônomos;20039;IRRFPROPGR;CX;NÃO
+Salário Mensalista;1;DCSAL;SALPGR;NÃO
+Salário Diarista;6;DCSAL;SALPGR;NÃO
+Salário Horista;7;DCSAL;SALPGR;NÃO
+Salário Aposentado;10;DCSAL;SALPGR;NÃO
+Bolsa de estudo - Estágio;20;DCSAL;SALPGR;NÃO
+Salário Doméstica c/ FGTS;25;DCSAL;SALPGR;NÃO
+Salário Doméstica;26;DCSAL;SALPGR;NÃO
+Honorário Autônomo;30;DCAUT;RENDPGR;NÃO
+Pró-Labore proprietário/sócio;35;DCPROLAB;PROLPGR;NÃO
+Salário Hora Normal;45;DCSAL;SALPGR;NÃO
+Salário Habitação;51;DCSAL;SALPGR;NÃO
+Salário Utilidade;52;SALPGR;DCSAL;NÃO
+Salário Habitação;53;SALPGR;DCSAL;NÃO
+Aluguel;54;SALPGR;DCSAL;NÃO
+Gratificações;60;DCSAL;SALPGR;NÃO
+Prêmio;65;DCSAL;SALPGR;NÃO
+Assiduidade;70;DCSAL;SALPGR;NÃO
+Quebra de Caixa;75;DCSAL;SALPGR;NÃO
+Abono;80;DCSAL;SALPGR;NÃO
+Pontos;85;DCSAL;SALPGR;NÃO
+Salário Semanal;96;DCSAL;SALPGR;NÃO
+Pró-Labore Semanal prioritário/sócio;97;DCSAL;SALPGR;NÃO
+Salário Semanal Autônomo;98;DCSAL;SALPGR;NÃO
+Adicional Insalubridade;101;DCSAL;SALPGR;NÃO
+Adicional Periculosidade;116;DCSAL;SALPGR;NÃO
+Adicional Noturno;131;DCSAL;SALPGR;NÃO
+Anuênio;146;DCSAL;SALPGR;NÃO
+Biênio;147;DCSAL;SALPGR;NÃO
+Triênio;148;DCSAL;SALPGR;NÃO
+Quinquênio;149;DCSAL;SALPGR;NÃO
+Decênio;150;DCSAL;SALPGR;NÃO
+Mensalidade Sindical;171;SALPGR;CSPGR;NÃO
+Contribuição Sindical;172;SALPGR;CSPGR;NÃO
+Contribuição Confederativa;173;SALPGR;CSPGR;NÃO
+Taxa Assistencial;174;SALPGR;CSPGR;NÃO
+Reversão Salarial;175;SALPGR;CSPGR;NÃO
+Subvenção Patronal;176;DCSAL;SALPGR;NÃO
+Subsídio Cônjuge;177;DCSAL;SALPGR;NÃO
+Vale Transporte;201;SALPGR;DCSAL;NÃO
+Vale Refeição vinculado ao PAT;202;SALPGR;DCSAL;NÃO
+Vale alimentação vinculado ao PAT;203;SALPGR;DCSAL;NÃO
+Vale Farmácia;204;SALPGR;DCSAL;NÃO
+Vale Transporte Empresa;205;DCSAL;SALPGR;NÃO
+Faltas não Justificadas Dias;216;SALPGR;DCSAL;NÃO
+Faltas não Justificadas Horas;217;SALPGR;DCSAL;NÃO
+Faltas não Justificadas Valor;218;SALPGR;DCSAL;NÃO
+Faltas Justificadas Dias;261;DCSAL;SALPGR;NÃO
+Faltas Justificadas Horas;262;DCSAL;SALPGR;NÃO
+Faltas Justificadas Valor;263;DCSAL;SALPGR;NÃO
+Comissões;311;DCSAL;SALPGR;NÃO
+Adicional Noturno Rendimento Variável;340;DCSAL;SALPGR;NÃO
+Salário Tarefeiro;349;DCSAL;SALPGR;NÃO
+Seguro de Vida em Grupo;351;SALPGR;DCSAL;NÃO
+Diárias;352;DCSAL;SALPGR;NÃO
+Diárias;353;DCSAL;SALPGR;NÃO
+Ajuda de Custos;354;DCSAL;SALPGR;NÃO
+Universidade;355;SALPGR;DCSAL;NÃO
+Horas Extras 50%;401;DCSAL;SALPGR;NÃO
+Horas Extras 55%;402;DCSAL;SALPGR;NÃO
+Horas Extras 60%;403;DCSAL;SALPGR;NÃO
+Horas Extras 65%;404;DCSAL;SALPGR;NÃO
+Horas Extras 70%;405;DCSAL;SALPGR;NÃO
+Horas Extras 75%;406;DCSAL;SALPGR;NÃO
+Horas Extras 80%;407;DCSAL;SALPGR;NÃO
+Horas Extras 85%;408;DCSAL;SALPGR;NÃO
+Horas Extras 90%;409;DCSAL;SALPGR;NÃO
+Horas Extras 95%;410;DCSAL;SALPGR;NÃO
+Horas Extras 100%;411;DCSAL;SALPGR;NÃO
+Horas Extras 105%;412;DCSAL;SALPGR;NÃO
+Horas Extras 110%;413;DCSAL;SALPGR;NÃO
+Horas Extras 115%;414;DCSAL;SALPGR;NÃO
+Horas Extras 120%;415;DCSAL;SALPGR;NÃO
+Horas Extras 125%;416;DCSAL;SALPGR;NÃO
+Horas Extras 130%;417;DCSAL;SALPGR;NÃO
+Horas Extras 135%;418;DCSAL;SALPGR;NÃO
+Horas Extras 140%;419;DCSAL;SALPGR;NÃO
+Horas Extras 145%;420;DCSAL;SALPGR;NÃO
+Horas Extras 150%;421;DCSAL;SALPGR;NÃO
+Horas Extras 175%;426;DCSAL;SALPGR;NÃO
+Horas Extras 180%;427;DCSAL;SALPGR;NÃO
+Horas Extras 200%;431;DCSAL;SALPGR;NÃO
+Horas Extras (Outras);432;DCSAL;SALPGR;NÃO
+Horas Extras 50% Noturna;451;DCSAL;SALPGR;NÃO
+Horas Extras 55% Noturna;452;DCSAL;SALPGR;NÃO
+Horas Extras 60% Noturna;453;DCSAL;SALPGR;NÃO
+Horas Extras 65% Noturna;454;DCSAL;SALPGR;NÃO
+Horas Extras 70% Noturna;455;DCSAL;SALPGR;NÃO
+Horas Extras 75% Noturna;456;DCSAL;SALPGR;NÃO
+Horas Extras 80% Noturna;457;DCSAL;SALPGR;NÃO
+Horas Extras 85% Noturna;458;DCSAL;SALPGR;NÃO
+Horas Extras 90% Noturna;459;DCSAL;SALPGR;NÃO
+Horas Extras 95% Noturna;460;DCSAL;SALPGR;NÃO
+Horas Extras 100% Noturna;461;DCSAL;SALPGR;NÃO
+Horas Extras 105% Noturna;462;DCSAL;SALPGR;NÃO
+Horas Extras 110% Noturna;463;DCSAL;SALPGR;NÃO
+Horas Extras 115% Noturna;464;DCSAL;SALPGR;NÃO
+Horas Extras 120% Noturna;465;DCSAL;SALPGR;NÃO
+Horas Extras 125% Noturna;466;DCSAL;SALPGR;NÃO
+Horas Extras 130% Noturna;467;DCSAL;SALPGR;NÃO
+Horas Extras 135% Noturna;468;DCSAL;SALPGR;NÃO
+Horas Extras 140% Noturna;469;DCSAL;SALPGR;NÃO
+Horas Extras 145% Noturna;470;DCSAL;SALPGR;NÃO
+Horas Extras 150% Noturna;471;DCSAL;SALPGR;NÃO
+Horas Extras 175% Noturna;476;DCSAL;SALPGR;NÃO
+Horas Extras 180% Noturna;477;DCSAL;SALPGR;NÃO
+Horas Extras 200% Noturna;481;DCSAL;SALPGR;NÃO
+Pensão Jurídica;501;SALPGR;PENSAOPGR;NÃO
+Pensão Alimentícia;502;SALPGR;PENSAOPGR;NÃO
+Despesas Médicas;521;SALPGR;SAUDEPGR;NÃO
+D.S.R. Salário;541;DCSAL;SALPGR;NÃO
+D.S.R. Rendimentos Variáveis;542;DCSAL;SALPGR;NÃO
+D.S.R. Horas Extras;543;DCSAL;SALPGR;NÃO
+D.S.R. Salário Semanal;545;DCSAL;SALPGR;NÃO
+D.S.R. Faltas Horas;601;SALPGR;DCSAL;NÃO
+D.S.R. Faltas Dias;602;SALPGR;DCSAL;NÃO
+Licença Remunerada;655;DCSAL;SALPGR;NÃO
+Dias Feriados Acordo Sindicato;705;DCSAL;SALPGR;NÃO
+Desconto Adiantamento salarial;901;SALPGR;ADDPGR;NÃO
+Adiantamento com Ded. I.R.;902;SALPGR;ADDPGR;NÃO
+Adiantamento;916;SALPGR;DCSAL;NÃO
+Vale;917;SALPGR;DCSAL;NÃO
+Participação nos Lucros - PLR;991;LUCROSACUM;PLRPGR;NÃO
+Complemento de Férias;3005;DCFERIAS;FERIASPGR;NÃO
+Complemento de Férias;3049;DCFERIAS;FERIASPGR;NÃO
+1/3 Complemento de Férias;3051;DCFERIAS;FERIASPGR;NÃO
+Complemento de Abono Pecuniário;3071;DCFERIAS;FERIASPGR;NÃO
+1/3 Complemento de Abono Pecuniário;3091;DCFERIAS;FERIASPGR;NÃO
+Férias 1/12 Pagto em Folha Integral;3871;PROVFER;SALPGR;NÃO
+Férias 1/30 Pagto em Folha Proporcional;3881;PROVFER;SALPGR;NÃO
+1/3 Férias Pagto em Folha;3891;PROVFER;SALPGR;NÃO
+Desconto Adto. 13°;4405;13SALPGR;ADD13SAL;NÃO
+Desconto Adto. 13º Contribuinte;4430;13SALPGR;ADD13SAL;NÃO
+Ad. 13º Sit.Maternidade Empresa;4451;INSSRECUP;13SALPGR;NÃO
+Ad. 13º Sit.Matern.Empresa Média HE;4452;INSSRECUP;13SALPGR;NÃO
+Ad. 13º Sit.Matern.Empresa Média RV;4453;INSSRECUP;13SALPGR;NÃO
+Ad. 13º Sit.Matern.Empresa Adicionais;4454;INSSRECUP;13SALPGR;NÃO
+Ad.13º Sit. Matern. Emp. Prêmios Gratif.;4455;INSSRECUP;13SALPGR;NÃO
+AD. 13º Compl. Sit. Maternidade Empresa;4456;INSSRECUP;13SALPGR;NÃO
+AD.13º Comp.Sit.Maternidade Empresa HE;4457;INSSRECUP;13SALPGR;NÃO
+AD.13º Comp.Sit.Maternidade Empresa RV;4458;INSSRECUP;13SALPGR;NÃO
+AD.13º Comp.Sit.Maternidade Empresa Adic;4459;INSSRECUP;13SALPGR;NÃO
+Ad. 13º Sit. Acidente de Trabalho;4461;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Ac. Trabalho Média HE;4462;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Ac. Trabalho Média RV;4463;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Ac. Trabalho Adic.;4464;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Auxílio Doença;4471;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Doença Relacionada ao Trabalho;4481;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Doença Rel. Trabalho Média HE;4482;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Doença Rel. Trabalho Média RV;4483;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Doença Rel. Trabalho Adic.;4484;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Serviço Militar;4491;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Pagamento em Folha Integral;4881;ADD13SAL;13SALPGR;NÃO
+Ad. 13º Pagamento em Folha Proporcional;4891;ADD13SAL;13SALPGR;NÃO
+Desc. Ad. 13º Sal. Sit. Acid. Trabalho;4911;13SALPGR;ADD13SAL;NÃO
+Desc. Ad. 13º Sal. Sit Aux. Doença;4921;13SALPGR;ADD13SAL;NÃO
+Desc. Ad. 13º Sal.Doença Rel. Trabalho;4931;13SALPGR;ADD13SAL;NÃO
+Desc. Ad. 13º Sal. Serviço Militar;4941;13SALPGR;ADD13SAL;NÃO
+Desconto Ad.13º Salário Situação;4951;13SALPGR;ADD13SAL;NÃO
+13° Salário;5005;PROVDEC;13SALPGR;NÃO
+13º Salário Contribuinte;5030;PROVDEC;13SALPGR;NÃO
+13° Salário;5099;PROVDEC;13SALPGR;NÃO
+13° Adic. Insalubridade;5101;PROVDEC;13SALPGR;NÃO
+13° Adic. Periculosidade;5111;PROVDEC;13SALPGR;NÃO
+13° Adic. Noturno;5121;PROVDEC;13SALPGR;NÃO
+13° Anuênio;5131;PROVDEC;13SALPGR;NÃO
+13° Biênio;5132;PROVDEC;13SALPGR;NÃO
+13° Triênio;5133;PROVDEC;13SALPGR;NÃO
+13° Quinquênio;5134;PROVDEC;13SALPGR;NÃO
+13° Decênio;5135;PROVDEC;13SALPGR;NÃO
+13° Adicionais;5199;PROVDEC;13SALPGR;NÃO
+13° Média H.E.;5201;PROVDEC;13SALPGR;NÃO
+13° Média D.S.R. H.E.;5202;PROVDEC;13SALPGR;NÃO
+13° Média R.V.;5203;PROVDEC;13SALPGR;NÃO
+13° Média D.S.R. R.V.;5204;PROVDEC;13SALPGR;NÃO
+13° Médias;5299;PROVDEC;13SALPGR;NÃO
+Desconto 13° Salário;5405;13SALPGR;PROVDEC;NÃO
+13º Pensão Alimenticia;5421;13SALPGR;PROVDEC;NÃO
+13º Salário Situação Maternidade Empresa;5451;INSSPGR;13SALPGR;NÃO
+13º Situação Mat. Emp. Média HE;5452;INSSPGR;13SALPGR;NÃO
+13º Situação Mat. Emp. Média RV;5453;INSSPGR;13SALPGR;NÃO
+13º Situação Mat. Emp. Média Adicionais;5454;INSSPGR;13SALPGR;NÃO
+13ºSal.Situação Mat. Empr. Prêmios Grat.;5455;INSSPGR;13SALPGR;NÃO
+13º Comp.Situação Maternidade Empresa;5456;INSSPGR;13SALPGR;NÃO
+13º SITUAÇÃO MATERNIDADE EMPRESA HE;5457;INSSPGR;13SALPGR;NÃO
+13º Comp.Situação Maternidade Empresa RV;5458;INSSPGR;13SALPGR;NÃO
+13º Comp.Sit. Maternidade Empresa Adic.;5459;INSSPGR;13SALPGR;NÃO
+13º Situação Acidente de Trabalho;5461;DC13.SAL;13SALPGR;NÃO
+13º Sit. Ac. Trabalho Média HE;5462;DC13.SAL;13SALPGR;NÃO
+13º Sit. Ac. Trabalho Média RV;5463;DC13.SAL;13SALPGR;NÃO
+13º Sit. Ac. Trabalho Média Adicionais;5464;DC13.SAL;13SALPGR;NÃO
+13º Situação Auxílio Doença;5471;DC13.SAL;13SALPGR;NÃO
+13º Doença Relacionada ao Trabalho;5481;DC13.SAL;13SALPGR;NÃO
+13º Doença Rel. Trabalho Méd. HE;5482;DC13.SAL;13SALPGR;NÃO
+13º Doença Rel. Trabalho Méd. RV;5483;DC13.SAL;13SALPGR;NÃO
+13º Doença Rel. Trabalho Méd. Adic.;5484;DC13.SAL;13SALPGR;NÃO
+13º Situação Serviço Militar;5491;DC13.SAL;13SALPGR;NÃO
+Complemento 13°;5505;PROVDEC;13SALPGR;NÃO
+Complemento 13°;5599;PROVDEC;13SALPGR;NÃO
+Complemento 13° Adic. Insalubridade;5601;PROVDEC;13SALPGR;NÃO
+Complemento 13° Adic. Periculosidade;5611;PROVDEC;13SALPGR;NÃO
+Complemento 13° Adic. Noturno;5621;PROVDEC;13SALPGR;NÃO
+Complemento 13° Anuênio;5631;PROVDEC;13SALPGR;NÃO
+Complemento 13° Biênio;5632;PROVDEC;13SALPGR;NÃO
+Complemento 13° Triênio;5633;PROVDEC;13SALPGR;NÃO
+Complemento 13° Quinquênio;5634;PROVDEC;13SALPGR;NÃO
+Complemento 13° Decênio;5635;PROVDEC;13SALPGR;NÃO
+Complemento 13° Adicionais;5699;PROVDEC;13SALPGR;NÃO
+Complemento 13° Média H.E.;5701;PROVDEC;13SALPGR;NÃO
+Complemento 13° Média D.S.R. H.E.;5702;PROVDEC;13SALPGR;NÃO
+Complemento 13° Média R.V.;5703;PROVDEC;13SALPGR;NÃO
+Complemento 13° Média D.S.R. R.V.;5704;PROVDEC;13SALPGR;NÃO
+Complemento 13° Médias;5799;PROVDEC;13SALPGR;NÃO
+Complemento 13º Sit.Maternidade Empresa;5851;INSSPGR;13SALPGR;NÃO
+Compl. 13º Sit.Mat.Empresa Média HE;5852;INSSPGR;13SALPGR;NÃO
+Compl. 13º Sit.Mat.Empresa Média RV;5853;INSSPGR;13SALPGR;NÃO
+Compl. 13º Sit.Mat.Empresa Adic.;5854;INSSPGR;13SALPGR;NÃO
+Complemento 13º Sit.Acidente de Trabalho;5861;DC13.SAL;13SALPGR;NÃO
+Compl. 13º Acidente de Trabalho Média HE;5862;DC13.SAL;13SALPGR;NÃO
+Compl. 13º Acidente de Trabalho Média RV;5863;DC13.SAL;13SALPGR;NÃO
+Compl. 13º Acidente de Trabalho Adic.;5864;PROVDEC;13SALPGR;NÃO
+Complemento 13º Auxílio Doença;5871;PROVDEC;13SALPGR;NÃO
+Complemento 13º Doença Rel. Trabalho;5881;PROVDEC;13SALPGR;NÃO
+Complemento 13º Serviço Militar;5891;PROVDEC;13SALPGR;NÃO
+Desc.13º Sal. Sit. Acidente de Trabalho;5901;13SALPGR;PROVDEC;NÃO
+Desc. 13º Sal. Sit. Auxílio Doença;5911;13SALPGR;PROVDEC;NÃO
+Desc. 13º Sal. Sit. Doença Rel. Trabalho;5921;13SALPGR;PROVDEC;NÃO
+Desc. 13º Sal. Sit Serviço Militar;5931;13SALPGR;PROVDEC;NÃO
+Desc. Comp. 13º Acidente de Trabalho;5951;13SALPGR;PROVDEC;NÃO
+Desc. Comp. 13º Auxílio Doença;5961;13SALPGR;PROVDEC;NÃO
+Desc. Comp. 13º Doen.Rel.Trabalho;5971;13SALPGR;PROVDEC;NÃO
+Desc. Comp. 13º Serviço Militar;5981;13SALPGR;PROVDEC;NÃO
+Saldo Salário Rescisão;6005;DCSAL;SALPGR;NÃO
+Saldo de Salário Rescisão;6006;DCSAL;SALPGR;NÃO
+Indenização Artigo 479;6031;DCSAL;SALPGR;NÃO
+Multa Rescisória;6032;DCSAL;SALPGR;NÃO
+Descanso Indenizado;6033;DCSAL;SALPGR;NÃO
+Indenização Término de Contrato;6034;SALPGR;DCSAL;NÃO
+Rescisão Aviso Prévio Descontado;6051;SALPGR;DCSAL;NÃO
+Rescisão Aviso Prévio Indenizado;6076;DCSAL;SALPGR;NÃO
+Rescisão Férias Proporcionais;6105;PROVFER;SALPGR;NÃO
+Rescisão Férias Proporcionais;6129;PROVFER;SALPGR;NÃO
+Rescisão 1/3 Férias Proporcionais;6131;PROVFER;SALPGR;NÃO
+Rescisão Férias Adicionais;6149;PROVFER;SALPGR;NÃO
+Rescisão Férias Média H.E.;6151;PROVFER;SALPGR;NÃO
+Rescisão Férias Média D.S.R. H.E.;6152;PROVFER;SALPGR;NÃO
+Rescisão Férias Média R.V.;6153;PROVFER;SALPGR;NÃO
+Rescisão Férias Média D.S.R. R.V.;6154;PROVFER;SALPGR;NÃO
+Rescisão Férias Médias;6199;PROVFER;SALPGR;NÃO
+Rescisão Férias Indenizadas;6205;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Indenizadas;6249;DCFERIAS;SALPGR;NÃO
+Rescisão 1/3 Férias Indenizadas;6251;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Ind. Adicionais;6349;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Ind. Média H.E.;6351;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Ind. Média DSR H.E.;6352;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Ind. Média R.V.;6353;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Ind. Média DSR R.V.;6354;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Ind. Médias;6399;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Vencidas;6405;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas;6449;PROVFER;SALPGR;NÃO
+Rescisão 1/3 Férias Vencidas;6451;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas Adicionais;6549;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas Média H.E.;6551;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas Média DSR H.E.;6552;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas Média R.V.;6553;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas Média DSR R.V.;6554;PROVFER;SALPGR;NÃO
+Rescisão Férias Vencidas Médias;6599;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro;6605;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro;6649;PROVFER;SALPGR;NÃO
+Rescisão 1/3 Férias em Dobro;6651;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Adicionais;6749;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Média H.E.;6751;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Média DSR H.E.;6752;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Média R.V.;6753;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Média DSR R.V.;6754;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Médias;6799;PROVFER;SALPGR;NÃO
+Desc. Férias 1/12 Pagamento em Folha;6991;SALPGR;PROVFER;NÃO
+Rescisão 13° Salário;7005;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário;7049;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário Adicionais;7099;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário Méd. H.E.;7101;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário Média D.S.R. H.E.;7102;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário Méd. R.V.;7103;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário Média D.S.R. R.V.;7104;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário Médias;7199;PROVDEC;SALPGR;NÃO
+Rescisão 13° Salário 1/12 Indenizado;7205;DC13.SAL;SALPGR;NÃO
+Rescisão 13° Salário 1/12 Indenizado;7249;DC13.SAL;SALPGR;NÃO
+Rescisão 13° Salário 1/12 Ind. Adic.;7299;DC13.SAL;SALPGR;NÃO
+Rescisão 13° Salário 1/12 Ind. Méd. H.E;7301;DC13.SAL;SALPGR;NÃO
+Rescisão 13° 1/12 Ind. Média DSR HE;7302;DC13.SAL;SALPGR;NÃO
+Rescisão 13° Salário 1/12 Ind. Méd. R.V;7303;DC13.SAL;SALPGR;NÃO
+Rescisão 13° 1/12 Ind. Média DSR RV;7304;DC13.SAL;SALPGR;NÃO
+Rescisão 13° Salário 1/12 Ind. Médias;7399;DC13.SAL;SALPGR;NÃO
+13º Situação Rescisão Matern.Empresa;7451;PROVDEC;SALPGR;NÃO
+13º Situação Rescisão Mat. Emp. Med HE;7453;PROVDEC;SALPGR;NÃO
+13º Situação Rescisão Mat. Emp. Med RV;7454;PROVDEC;SALPGR;NÃO
+13º Situação Rescisão Mat. Emp. Med Adic;7455;PROVDEC;SALPGR;NÃO
+13º Situação Resc. Desconto Mat. Empresa;7471;SALPGR;PROVDEC;NÃO
+Rescisão Desconto Adiantamento 13° Sal.;7505;SALPGR;PROVDEC;NÃO
+Rescisão Desconto 13° Salario;7555;SALPGR;PROVDEC;NÃO
+Diferença 13º Salário Pago;7605;PROVDEC;SALPGR;NÃO
+Desc. Ad. 13º Sal. Pago em Folha;7991;SALPGR;PROVDEC;NÃO
+Complemento situação maternidade empresa;8002;DCSAL;SALPGR;NÃO
+Salário Maternidade;8005;DCSAL;SALPGR;NÃO
+Situação Maternidade Empresa;8006;INSSPGR;SALPGR;NÃO
+Situação Maternidade Pro-Labore;8007;DCSAL;SALPGR;NÃO
+Salário Maternidade;8049;DCSAL;SALPGR;NÃO
+Complemento maternidade emp. adicional;8051;DCSAL;SALPGR;NÃO
+Situação Maternidade Adicionais;8099;DCSAL;SALPGR;NÃO
+Situação Maternidade Média H.E.;8101;DCSAL;SALPGR;NÃO
+Situação Maternidade Média D.S.R. H.E.;8102;DCSAL;SALPGR;NÃO
+Situação Maternidade Média R.V.;8103;DCSAL;SALPGR;NÃO
+Situação Maternidade Média D.S.R. R.V.;8104;DCSAL;SALPGR;NÃO
+Situação Maternidade Média HE Empresa;8105;INSSPGR;SALPGR;NÃO
+Situação Maternidade Média Dsr HE;8106;INSSPGR;SALPGR;NÃO
+Situação Maternidade Média Rv Empresa;8107;INSSPGR;SALPGR;NÃO
+Situação Maternidade Média Dsr RV;8108;INSSPGR;SALPGR;NÃO
+Comp. Situação Maternidade Médias HE;8109;DCSAL;SALPGR;NÃO
+Situação Maternidade Adicionais Empresa;8110;INSSPGR;SALPGR;NÃO
+Comp. Situação Maternidade Médias RV;8111;DCSAL;SALPGR;NÃO
+Comp. Sit. Maternidade Médias DSR HE;8112;DCSAL;SALPGR;NÃO
+Comp. Sit. Maternidade Médias DSR RV;8113;DCSAL;SALPGR;NÃO
+Situação Maternidade Médias;8199;DCSAL;SALPGR;NÃO
+Sit. Aux. Doença maior que a carência;8205;DCSAL;SALPGR;NÃO
+Aux.Doe. maior que a carência Prêm.Grat.;8206;DCSAL;SALPGR;NÃO
+Aux. Doença maior que a carência;8249;DCSAL;SALPGR;NÃO
+Aux.Doe. maior que a carência Adicional;8299;DCSAL;SALPGR;NÃO
+Aux.Doe.Med. H.E. maior que a carência;8301;DCSAL;SALPGR;NÃO
+Aux.Doe.Med. DSR HE maior que carência;8302;DCSAL;SALPGR;NÃO
+Aux.Doe.Med. R.V. maior que a carência;8303;DCSAL;SALPGR;NÃO
+Aux.Doe.Med. DSR RV maior que carência;8304;DCSAL;SALPGR;NÃO
+Atestado doença com incidência;8351;DCSAL;SALPGR;NÃO
+Atestado doença Adicional com incidência;8361;DCSAL;SALPGR;NÃO
+Aux.Doe. Média H.E. menor que a carência;8371;DCSAL;SALPGR;NÃO
+Aux.Doe.Med. DSR HE menor que a carência;8372;DCSAL;SALPGR;NÃO
+Aux.Doe. Média R.V. menor que a carência;8373;DCSAL;SALPGR;NÃO
+Aux.Doe.Med. DSR RV menor que a carência;8374;DCSAL;SALPGR;NÃO
+Aux.Doença Medias;8379;DCSAL;SALPGR;NÃO
+Aux. Doença Médias maior que a carência;8399;DCSAL;SALPGR;NÃO
+Acidente Trabalho maior que a carência;8401;DCSAL;SALPGR;NÃO
+Acidente Trabalho maior que a carência;8405;DCSAL;SALPGR;NÃO
+Acidente Trabalho maior que a carência;8449;DCSAL;SALPGR;NÃO
+Ac.Trab. maior que a carência Adicionais;8499;DCSAL;SALPGR;NÃO
+Ac. Trab. Med. H.E. maior que a carência;8501;DCSAL;SALPGR;NÃO
+Ac.Trab.Med. DSR HE maior que a carência;8502;DCSAL;SALPGR;NÃO
+Ac. Trab. Med. R.V. maior que a carência;8503;DCSAL;SALPGR;NÃO
+Ac.Trab.Med. DSR RV maior que a carência;8504;DCSAL;SALPGR;NÃO
+Ac. de Trab. Médias maior que a carência;8599;DCSAL;SALPGR;NÃO
+Salário Situação Serviço Militar;8605;DCSAL;SALPGR;NÃO
+Salário Situação Serviço Militar;8649;DCSAL;SALPGR;NÃO
+Situação Serviço Militar Adicionais;8699;DCSAL;SALPGR;NÃO
+Situação Serviço Militar Média H.E.;8701;DCSAL;SALPGR;NÃO
+Situação Serviço Militar Média DSR H.E.;8702;DCSAL;SALPGR;NÃO
+Situação Serviço Militar Média R.V.;8703;DCSAL;SALPGR;NÃO
+Situação Serviço Militar Média DSR R.V.;8704;DCSAL;SALPGR;NÃO
+Situação Serviço Militar Médias;8799;DCSAL;SALPGR;NÃO
+Desconto Salário Situação;8801;SALPGR;DCSAL;NÃO
+Aposent. Invalidez maior que a carência;8811;DCSAL;SALPGR;NÃO
+Apos.Inval. RV maior que a carência;8821;DCSAL;SALPGR;NÃO
+Apos.Inval. DSR RV maior que a carência;8822;DCSAL;SALPGR;NÃO
+Apos.Inval. HE maior que a carência;8823;DCSAL;SALPGR;NÃO
+Apos.Inval. DSR HE maior que a carência;8824;DCSAL;SALPGR;NÃO
+Apos.Inval.maior que a carência Adiciona;8831;DCSAL;SALPGR;NÃO
+Afastamento por Mandato Sindical;8851;DCSAL;SALPGR;NÃO
+Mandato Sindical Horas Extras;8861;DCSAL;SALPGR;NÃO
+Mandato Sindical DSR H.E.;8862;DCSAL;SALPGR;NÃO
+Mandato Sindical R.V.;8863;DCSAL;SALPGR;NÃO
+Mandato Sindical DSR R.V.;8864;DCSAL;SALPGR;NÃO
+Mandato Sindical Adicional;8871;DCSAL;SALPGR;NÃO
+Aux.Doe.Trab. maior que a carência;8905;DCSAL;SALPGR;NÃO
+Aux.Doe.Trab. Adic. maior que a carência;8919;DCSAL;SALPGR;NÃO
+Aux.Doe.Trab.Med.HE maior que a carência;8921;DCSAL;SALPGR;NÃO
+Doe.Trab.Med.DSR HE maior que a carência;8922;DCSAL;SALPGR;NÃO
+Aux.Doe.Trab.Med.RV maior que a carência;8923;DCSAL;SALPGR;NÃO
+Doe.Trab.Med.DSR RV maior que a carência;8924;DCSAL;SALPGR;NÃO
+Aux.Doe.Trab.Med. maior que a carência;8929;DCSAL;SALPGR;NÃO
+Salário Situação;8955;DCSAL;SALPGR;NÃO
+Situação Adicionais;8969;DCSAL;SALPGR;NÃO
+Situação Média H.E.;8971;DCSAL;SALPGR;NÃO
+Situação Médias DSR H.E.;8972;DCSAL;SALPGR;NÃO
+Situação Média R.V.;8973;DCSAL;SALPGR;NÃO
+Situação Médias DSR R.V.;8974;DCSAL;SALPGR;NÃO
+Situação Médias;8979;DCSAL;SALPGR;NÃO
+Arredondamento Desconto Adiantamento;9013;SALPGR;DCSAL;NÃO
+Arredondamento Desconto Férias;9023;SALPGR;DCSAL;NÃO
+Arredondamento Provento 13°;9032;DCSAL;SALPGR;NÃO
+Arredondamento Desconto 13°;9033;SALPGR;DCSAL;NÃO
+Estouro Provento;9051;DCSAL;SALPGR;NÃO
+Estouro Desconto;9052;SALPGR;DCSAL;NÃO
+I.N.S.S.;9101;SALPGR;INSSPGR;NÃO
+I.N.S.S. 13° Salário;9104;SALPGR;INSSPGR;NÃO
+Contribuição SEST/SENAT;9401;SALPGR;INSSPGR;NÃO
+Salário Família;9501;INSSPGR;SALPGR;NÃO
+Salário Família Férias;9502;INSSPGR;SALPGR;NÃO
+Salário Família Situação;9503;INSSPGR;SALPGR;NÃO
+Pagamento - Verba 171 Mensalidade sindical;30171;CSPGR;CX;NÃO
+Pagamento - Verba 172 Contribuição sindical;30172;CSPGR;CX;NÃO
+Pagamento - Verba 173 Contribuição confederativa;30173;CSPGR;CX;NÃO
+Pagamento - Verba 174 Taxa assistencial;30174;CSPGR;CX;NÃO
+Pagamento - Verba 175 Reversão salarial;30175;CSPGR;CX;NÃO
+I.R. 13° Salário;9154;SALPGR;IRFPFPGR;NÃO
+Provisão - Contribuinte individual prolaborista;10013;SALPGR;INSSPGR;NÃO
+Provisão - Contribuinte individual autônomo;10014;SALPGR;INSSPGR;NÃO
+Provisão - PLR Prolaboristas;10041;PLRPGR;IRRFPLR;NÃO
+Provisão - IR PLR autônomo;10042;PLRPGR;IRRFPLR;NÃO
+Provisão - Arredodamento folha funcionários;10043;ADDSAL;SALPGR;NÃO
+Provisão - Arredondamento folha prolaboristas;10044;ADDSAL;SALPGR;NÃO
+Provisão - Arredondamento folha autônomos;10045;ADDSAL;SALPGR;NÃO
+Provisão - Arredodamento folha funcionários desconto;10046;SALPGR;ADDSAL;NÃO
+Provisão - Arredondamento folha prolaboristas desconto;10047;SALPGR;ADDSAL;NÃO
+Provisão - Arredondamento folha autônomos desconto;10048;SALPGR;ADDSAL;NÃO
+Provisão - Aluguel locatário;10050;DCALUG;ALUPGR;NÃO
+Provisão - IR Aluguel;10051;DCALUG;IRALUGUEL;NÃO
+Provisão - DARF PBM;10060;DARFPBM;IRPBM;NÃO
+Provisão - compensação PBM;10061;INSSPGR;DCINSS;NÃO
+Provisão - compensação MEI;10062;INSSPGR;DCINSS;NÃO
+Pagamento - NF cooperativa;20035;INSSPGR;CX;NÃO
+Pagamento - Líquido PLR prolaboristas;20040;PLRPGR;CX;SIM
+Pagamento - Líquido PLR autônomos;20041;PLRPGR;CX;SIM
+Pagamento - Aluguel locatário;20050;ALUPGR;CX;NÃO
+Pagamento - IR aluguel;20051;IRALUGUEL;CX;NÃO
+Pagamento - Multa aluguel;20052;MULTAS;CX;NÃO
+Pagamento - Juros PIS;20055;JUROS;CX;NÃO
+Pagamento - Juros IR;20056;JUROS;CX;NÃO
+Pagamento - Líquido transferências;20058;SALPGR;CX;SIM
+Pagamento - Líquido adiantamento prolaboristas;20059;ADDPGR;CX;SIM
+Pagamento - DARF PBM;20060;IRPBM;CX;NÃO
+Pagamento - Multas PBM;20061;MULTAS;CX;NÃO
+Pagamento - Juros PBM;20062;JUROS;CX;NÃO
+Horas normais (Contrato intermitente);8;DCSAL;SALPGR;NÃO
+Honorários não residentes com INSS;31;DCAUT;RENDPGR;NÃO
+Honorários não residentes sem INSS;32;DCAUT;RENDPGR;NÃO
+Pró-labore diretor não empregado c/ FGTS;36;DCPROLAB;SALPGR;NÃO
+Salário Habitação;55;DCSAL;SALPGR;NÃO
+Salário Utilidade;56;DCSAL;SALPGR;NÃO
+Salário Habitação;57;SALPGR;DCSAL;NÃO
+Aluguel;58;SALPGR;DCSAL;NÃO
+Gratificações;61;DCSAL;SALPGR;NÃO
+Prêmio;66;DCSAL;SALPGR;NÃO
+Assiduidade;71;DCSAL;SALPGR;NÃO
+Quebra de Caixa;76;DCSAL;SALPGR;NÃO
+Abono;81;DCSAL;SALPGR;NÃO
+Pontos;86;DCSAL;SALPGR;NÃO
+Salário Quinzenal;121;DCSAL;SALPGR;NÃO
+Pró-Labore Quinzenal proprietário/sócio;122;DCSAL;SALPGR;NÃO
+Salário Quinzenal Autônomo;123;DCSAL;SALPGR;NÃO
+Adicional Noturno Horas;440;DCSAL;SALPGR;NÃO
+Despesas Médicas Titular;522;SALPGR;SAUDEPGR;NÃO
+Despesas Médicas Dependente;523;SALPGR;SAUDEPGR;NÃO
+Coparticipação Titular;524;SALPGR;SAUDEPGR;NÃO
+Coparticipação Dependente;525;SALPGR;SAUDEPGR;NÃO
+Empréstimo consignado - Parcelamento;531;SALPGR;CONSIGPGR;NÃO
+D.S.R. Horista Especial;546;DCSAL;SALPGR;NÃO
+D.S.R. Salário Quinzenal;547;DCSAL;SALPGR;NÃO
+Licença Remunerada Estagiário;656;DCSAL;SALPGR;NÃO
+Complemento 13º Folha Normal;951;13SALPGR;SALPGR;NÃO
+Adiantamento de 13º nas férias;2701;13SALPGR;ADDFERIS;NÃO
+Complemen. Recesso remunerado estágio;3006;DCFERIAS;FERIASPGR;NÃO
+Férias 1/12 Intermitente;3872;PROVFER;SALPGR;NÃO
+1/3 Férias Contrato intermitente;3892;PROVFER;SALPGR;NÃO
+Desconto Adto. 13° trans;4301;13SALPGR;ADD13SAL;NÃO
+Ad.13º Sit.Acid. Trab. Prêmios Gratific.;4465;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit.Matern.Empresa Média DSR HE;4466;INSSRECUP;13SALPGR;NÃO
+Ad. 13º Sit.Matern.Empresa Média DSR RV;4467;INSSRECUP;13SALPGR;NÃO
+AD.13º Comp.Sit.Maternidade Emp. DSR HE;4468;INSSRECUP;13SALPGR;NÃO
+AD.13º Comp.Sit.Maternidade Emp. DSR RV;4469;INSSRECUP;13SALPGR;NÃO
+Ad. 13º Sit. Auxílio Doença Média HE;4472;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Auxílio Doença Média RV;4473;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Aux. Doença Prêmios Gratif.;4475;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Ac. Trabalho Média DSR HE;4476;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Ac. Trabalho Média DSR RV;4477;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Auxílio Doença Méd. DSR HE;4478;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Auxílio Doença Méd. DSR RV;4479;DC13.SAL;13SALPGR;NÃO
+Ad.13º Doe.Relac. Trabalho Prêmios Grat.;4485;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Doença Rel. Trabalho Méd. DSR HE;4486;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Doença Rel. Trabalho Méd. DSR RV;4487;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Serviço Militar Média HE;4492;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Serviço Militar Média RV;4493;DC13.SAL;13SALPGR;NÃO
+Ad.13ºSit. Serviço Militar Prêmios Grat.;4495;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Serviço Militar Méd. DSR HE;4496;DC13.SAL;13SALPGR;NÃO
+Ad. 13º Sit. Serviço Militar Méd. DSR RV;4497;DC13.SAL;13SALPGR;NÃO
+Pensão Adiantamento 13º;4801;13SALPGR;PENSAOPGR;NÃO
+13° Salário Prêmios e Gratificações;5006;PROVDEC;13SALPGR;NÃO
+13º Salário 1/12 Contrato Intermintente;5007;PROVDEC;13SALPGR;NÃO
+Desconto 13º salário transferência;5301;13SALPGR;PROVDEC;NÃO
+13º Sit. Acid. Trabalho Prêmios Gratif.;5465;DC13.SAL;13SALPGR;NÃO
+13º Situação Mat. Emp. Média DSR HE;5466;INSSPGR;13SALPGR;NÃO
+13º Situação Mat. Emp. Média DSR RV;5467;INSSPGR;13SALPGR;NÃO
+13º Comp. Sit. Maternidade Emp. DSR HE;5468;INSSPGR;13SALPGR;NÃO
+13º Comp. Sit. Maternidade Emp. DSR RV;5469;INSSPGR;13SALPGR;NÃO
+13º Situação Auxílio Doença Média HE;5472;DC13.SAL;13SALPGR;NÃO
+13º Situação Auxílio Doença Média RV;5473;DC13.SAL;13SALPGR;NÃO
+13º Situação Aux. Doença Prêmios Gratif.;5475;DC13.SAL;13SALPGR;NÃO
+13º Sit. Ac. Trabalho Média DSR HE;5476;DC13.SAL;13SALPGR;NÃO
+13º Sit. Ac. Trabalho Média DSR RV;5477;DC13.SAL;13SALPGR;NÃO
+13º Situação Auxílio Doença Méd. DSR HE;5478;DC13.SAL;13SALPGR;NÃO
+13º Situação Auxílio Doença Méd. DSR RV;5479;DC13.SAL;13SALPGR;NÃO
+13º Doença Relac. Trab. Prêmios Gratif.;5485;DC13.SAL;13SALPGR;NÃO
+13º Doença Rel. Trabalho Méd. DSR HE;5486;DC13.SAL;13SALPGR;NÃO
+13º Doença Rel. Trabalho Méd. DSR RV;5487;DC13.SAL;13SALPGR;NÃO
+13º Situação Serviço Militar Média HE;5492;DC13.SAL;13SALPGR;NÃO
+13º Situação Serviço Militar Média RV;5493;DC13.SAL;13SALPGR;NÃO
+13º Situação Serv. Militar Prêmios Grat.;5495;DC13.SAL;13SALPGR;NÃO
+13º Situação Serviço Militar Méd. DSR HE;5496;DC13.SAL;13SALPGR;NÃO
+13º Situação Serviço Militar Méd. DSR RV;5497;DC13.SAL;13SALPGR;NÃO
+Complemento 13° Prêmios e Gratificações;5506;PROVDEC;13SALPGR;NÃO
+Compl.13º Sit. Mat. Empr. Prêmios Grat.;5855;INSSPGR;13SALPGR;NÃO
+Compl. 13º Sit.Mat.Empresa Média DSR HE;5856;INSSPGR;13SALPGR;NÃO
+Compl. 13º Sit.Mat.Empresa Média DSR RV;5857;INSSPGR;13SALPGR;NÃO
+Compl.13º Sit.Acid. Trab. Prêmios Grat.;5865;PROVDEC;13SALPGR;NÃO
+Compl. 13º Ac. de Trabalho Média DSR HE;5866;DC13.SAL;13SALPGR;NÃO
+Compl. 13º Ac. de Trabalho Média DSR RV;5867;DC13.SAL;13SALPGR;NÃO
+Compl. 13º Auxílio Doença Média HE;5872;PROVDEC;13SALPGR;NÃO
+Compl. 13º Auxílio Doença Média RV;5873;PROVDEC;13SALPGR;NÃO
+Compl. 13º Aux. Doença Prêmios Gratif.;5875;PROVDEC;13SALPGR;NÃO
+Compl. 13º Auxílio Doença Média DSR HE;5876;PROVDEC;13SALPGR;NÃO
+Compl. 13º Auxílio Doença Média DSR RV;5877;PROVDEC;13SALPGR;NÃO
+Compl. 13º Doença Rel. Trabalho Méd. HE;5882;PROVDEC;13SALPGR;NÃO
+Compl. 13º Doença Rel. Trabalho Méd. RV;5883;PROVDEC;13SALPGR;NÃO
+Compl.13ºDoença Rel. Trab. Prêmios Grat.;5885;PROVDEC;13SALPGR;NÃO
+Compl. 13º Doença Rel. Trab. Méd. DSR HE;5886;PROVDEC;13SALPGR;NÃO
+Compl. 13º Doença Rel. Trab. Méd. DSR RV;5887;PROVDEC;13SALPGR;NÃO
+Compl. 13º Serviço Militar Méd. HE;5892;PROVDEC;13SALPGR;NÃO
+Compl. 13º Serviço Militar Méd. RV;5893;PROVDEC;13SALPGR;NÃO
+Compl.13º Serviço Militar Prêmios Grat.;5895;PROVDEC;13SALPGR;NÃO
+Compl. 13º Serviço Militar Méd. DSR HE;5896;PROVDEC;13SALPGR;NÃO
+Compl. 13º Serviço Militar Méd. DSR RV;5897;PROVDEC;13SALPGR;NÃO
+Saldo Sal.Rescisão Prêmios e Gratific.;6007;DCSAL;SALPGR;NÃO
+Multa rescisória artigo 477;6035;DCSAL;SALPGR;NÃO
+Rescisão Aviso Prévio Descontado Proporc;6052;SALPGR;DCSAL;NÃO
+Aviso Prévio Indenizado Proporcional;6077;DCSAL;SALPGR;NÃO
+Rescisão Av.Prév.Indenizado Prêmios Gra.;6078;DCSAL;SALPGR;NÃO
+Rescisão Férias Proporc. Prêmios Gratif.;6106;PROVFER;SALPGR;NÃO
+Rescisão Férias Ind. Prêmios Grat.;6206;DCFERIAS;SALPGR;NÃO
+Rescisão Férias Vencidas Prêmios Gratif.;6406;PROVFER;SALPGR;NÃO
+Rescisão Férias em Dobro Prêmios e Grat.;6606;PROVFER;SALPGR;NÃO
+Rescisão 13º Salário Prêmios e Gratific.;7006;PROVDEC;SALPGR;NÃO
+Rescisão 13º Sal. 1/12 Ind. Prêmios Gra.;7206;DC13.SAL;SALPGR;NÃO
+13ºSit.Rescisão Matern. Empr. Prêmios G.;7452;PROVDEC;SALPGR;NÃO
+13º rescisão complemento sit. mat. emp.;7456;PROVDEC;SALPGR;NÃO
+13º rescisao complemento sit.mat.emp. HE;7457;PROVDEC;SALPGR;NÃO
+13º rescisao complemento sit.mat.emp. RV;7458;PROVDEC;SALPGR;NÃO
+13º rescisao comp. sit.mat.emp. adic;7459;PROVDEC;SALPGR;NÃO
+13º Sit. Rescisão Mat. Emp. Méd. DSR HE;7466;PROVDEC;SALPGR;NÃO
+13º Sit. Rescisão Mat. Emp. Méd. DSR RV;7467;PROVDEC;SALPGR;NÃO
+13º rescisão compl. sit.mat.emp. DSR HE;7476;PROVDEC;SALPGR;NÃO
+13º rescisão compl. sit.mat.emp. DSR RV;7477;PROVDEC;SALPGR;NÃO
+13º Sit. Rescisão  Acidente de Trabalho;7481;PROVDEC;SALPGR;NÃO
+13ºSit. Rescisão Ac. Trabalho Prêmios G.;7482;PROVDEC;SALPGR;NÃO
+13º Sit. Rescisão Acid.de Trabalho HE;7483;PROVDEC;SALPGR;NÃO
+13º Sit. Rescisão Acid.de Trabalho RV;7484;PROVDEC;SALPGR;NÃO
+13º Sit. Resc. Acid.de Trabalho DSR HE;7486;PROVDEC;SALPGR;NÃO
+13º Sit. Resc. Acid.de Trabalho DSR RV;7487;PROVDEC;SALPGR;NÃO
+13º Sit. Rescisão Desconto Ac. Trabalho;7491;SALPGR;PROVDEC;NÃO
+Rescisão Desconto 13° Maternidade;7651;SALPGR;INSSPGR;NÃO
+Situação maternidade prêmios e gratif.;8015;DCSAL;SALPGR;NÃO
+Situação Maternidade Emp. Prêmios Grat.;8016;DCSAL;SALPGR;NÃO
+Situação Maternidade Empresa Quinzenal;8047;DCSAL;SALPGR;NÃO
+Situação Maternidade Empresa Semanal;8048;DCSAL;SALPGR;NÃO
+Salário Maternidade Pro;8132;DCSAL;SALPGR;NÃO
+Aux.Doe. maior que a carência Quinzenal;8247;DCSAL;SALPGR;NÃO
+Aux.Doe. maior que a carência Semanal;8248;DCSAL;SALPGR;NÃO
+Aux.Doe. menor que a carência Prêm.Grat.;8352;DCSAL;SALPGR;NÃO
+Aux. Doença menor que a carência Quinzen;8358;DCSAL;SALPGR;NÃO
+Aux. Doença menor que a carência Semanal;8359;DCSAL;SALPGR;NÃO
+Ac.Trab. maior que a carência Prêm.Grat.;8406;DCSAL;SALPGR;NÃO
+Ac.Trab. maior que a carência Quinzenal;8447;DCSAL;SALPGR;NÃO
+Ac.Trab. maior que a carência Semanal;8448;DCSAL;SALPGR;NÃO
+Sal. Sit. Serviço Militar Prêmios Grat.;8606;DCSAL;SALPGR;NÃO
+Salário Situação Serv. Militar Quinzenal;8647;DCSAL;SALPGR;NÃO
+Salário Situação Serv. Militar Semanal;8648;DCSAL;SALPGR;NÃO
+Apos.Inv.maior que a carência Prêm.Grat.;8812;DCSAL;SALPGR;NÃO
+Apos.Inv. maior que a carência Quinzenal;8818;DCSAL;SALPGR;NÃO
+Apos.Inv. maior que a carência Semanal;8819;DCSAL;SALPGR;NÃO
+Afast. Mandado Sindical Prêmios Gratif.;8852;DCSAL;SALPGR;NÃO
+Afast. por Mandato Sindical Quinzenal;8858;DCSAL;SALPGR;NÃO
+Afast. por Mandato Sindical Semanal;8859;DCSAL;SALPGR;NÃO
+Atestado acid. trabalho com incidência;8891;DCSAL;SALPGR;NÃO
+Ac.Trab. menor que a carência Prêm.Grat.;8892;DCSAL;SALPGR;NÃO
+Aux.Doe.Tra.maior que a carência Prê.Gra;8906;DCSAL;SALPGR;NÃO
+Sal.Situação Doença Rel. Trab. Quinzenal;8908;DCSAL;SALPGR;NÃO
+Doe.Rel.Trab.Seman. maior que a carência;8909;DCSAL;SALPGR;NÃO
+Atestado acid. trabalho Adic. com ind.;8931;DCSAL;SALPGR;NÃO
+Ac. Trab. Med. H.E. menor que a carência;8941;DCSAL;SALPGR;NÃO
+Ac.Trab.Med. DSR HE menor que a carência;8942;DCSAL;SALPGR;NÃO
+Ac. Trab. Med. R.V. menor que a carência;8943;DCSAL;SALPGR;NÃO
+Ac.Trab.Med. DSR RV menor que a carência;8944;DCSAL;SALPGR;NÃO
+Aci. Trab. Medias menor que a carência;8949;DCSAL;SALPGR;NÃO
+Salário Situação Prêmios e Gratificações;8956;DCSAL;SALPGR;NÃO
+Salário Situação Quinzenal;8958;DCSAL;SALPGR;NÃO
+Salário Situação Semanal;8959;DCSAL;SALPGR;NÃO
+Arredondamento Provento 13º transf;9042;DCSAL;SALPGR;NÃO
+Arredondamento Desconto 13º transf;9043;SALPGR;DCSAL;NÃO
+I.S.S.;9135;SALPGR;ISSPGR;NÃO
+1/3 Férias (Covid-19);3896;DCFERIAS;FERIASPGR;NÃO
+1/3 Abono Pecuniário (Covid-19);3897;DCFERIAS;FERIASPGR;NÃO
+1/3 Férias Dobro (Covid-19);3898;DCFERIAS;FERIASPGR;NÃO
+1/3 Abono Pecuniário Dobro (Covid-19);3899;DCFERIAS;FERIASPGR;NÃO
+Horas noturnas (Contrato intermitente);9;DCSAL;SALPGR;NÃO
+Ajuda compensatória mensal obrigatória;356;DCSAL;SALPGR;NÃO
+Ajuda compensatória espontânea (%);357;DCSAL;SALPGR;NÃO
+Ajuda compensatória espontânea ($);358;DCSAL;SALPGR;NÃO
+Férias 1/12 Verde Amarelo;3873;DCFERIAS;FERIASPGR;NÃO
+1/3 Férias Verde Amarelo;3893;DCFERIAS;FERIASPGR;NÃO
+Desconto de férias antecipadas;3901;SALPGR;DCSAL;NÃO
+Adiantamento 13° Salário;4005;ADD13SAL;13SALPGR;NÃO
+Adiantamento 13º Salário Prêmios Gratif.;4006;ADD13SAL;13SALPGR;NÃO
+Adto. 13º Contribuinte;4030;ADD13SAL;13SALPGR;NÃO
+Adto. 13°;4099;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Adic. Insalubridade;4101;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Adic. Periculosidade;4111;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Adic. Noturno;4121;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Anuênio;4131;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Biênio;4132;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Triênio;4133;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Quinquênio;4134;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Decênio;4135;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Adicionais;4199;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Média H.E.;4201;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Média D.S.R. H.E.;4202;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Média R.V.;4203;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Média D.S.R. R.V.;4204;ADD13SAL;13SALPGR;NÃO
+Adto. 13° Médias;4299;ADD13SAL;13SALPGR;NÃO
+13º Salário 1/12 Verde Amarelo;5008;DC13.SAL;13SALPGR;NÃO
+Indenização rescisória 50% ? BEm;6037;DCAVISO;SALPGR;NÃO
+Dedução Covid-19 - 02/04/2020;9601;INSSPGR;DCSAL;NÃO
+Férias Folha;3105;PROVFER;SALPGR;NÃO
+Recesso remunerado Folha - Estágio;3106;PROVFER;SALPGR;NÃO
+Férias Folha;3125;PROVFER;SALPGR;NÃO
+Demonstrativo Férias Folha Pensão;3130;SALPGR;PENSAOPGR;NÃO
+Férias Folha;3149;PROVFER;SALPGR;NÃO
+1/3 Férias Folha;3151;PROVFER;SALPGR;NÃO
+Férias Adicionais Folha;3248;PROVFER;SALPGR;NÃO
+Férias Adicionais Folha;3249;PROVFER;SALPGR;NÃO
+Férias Média H.E. Folha;3251;PROVFER;SALPGR;NÃO
+Férias Média D.S.R. H.E. Folha;3252;PROVFER;SALPGR;NÃO
+Férias Média R.V. Folha;3253;PROVFER;SALPGR;NÃO
+Férias Média D.S.R. R.V. Folha;3254;PROVFER;SALPGR;NÃO
+Férias Médias Folha;3299;PROVFER;SALPGR;NÃO
+FÉRIAS FOLHA MÉDIAS RV;3301;PROVFER;SALPGR;NÃO
+Abono Pecuniário Folha;3355;PROVFER;SALPGR;NÃO
+Abono Pecuniário Folha;3399;PROVFER;SALPGR;NÃO
+1/3 Abono Pecuniário Folha;3401;PROVFER;SALPGR;NÃO
+Abono Pec. Férias Adicionais Folha;3499;PROVFER;SALPGR;NÃO
+Abono Férias Média H.E. Folha;3501;PROVFER;SALPGR;NÃO
+Abono Férias Média D.S.R. H.E. Folha;3502;PROVFER;SALPGR;NÃO
+Abono Férias Média R.V. Folha;3503;PROVFER;SALPGR;NÃO
+Abono Férias Média D.S.R. R.V. Folha;3504;PROVFER;SALPGR;NÃO
+Abono Férias Médias;3599;PROVFER;SALPGR;NÃO
+Férias Dobro Folha;3605;PROVFER;SALPGR;NÃO
+Férias Dobro Folha;3649;PROVFER;SALPGR;NÃO
+1/3 Férias Dobro Folha;3651;PROVFER;SALPGR;NÃO
+Férias Dobro Adicionais Folha;3749;PROVFER;SALPGR;NÃO
+Férias Dobro Média H.E. Folha;3751;PROVFER;SALPGR;NÃO
+Férias Dobro Média D.S.R. H.E. Folha;3752;PROVFER;SALPGR;NÃO
+Férias Dobro Média R.V. Folha;3753;PROVFER;SALPGR;NÃO
+Férias Dobro Média D.S.R. R.V. Folha;3754;PROVFER;SALPGR;NÃO
+Férias Dobro Médias Folha;3799;PROVFER;SALPGR;NÃO
+Dem. Abono Pecuniário em Dobro Folha;3831;PROVFER;SALPGR;NÃO
+1/3 Abono Pecuniário em Dobro Folha;3841;PROVFER;SALPGR;NÃO
+Dem. Abono Pecuniário Dobro Folha Adic.;3851;PROVFER;SALPGR;NÃO
+Dem.Abono Pecuniário Dobro Fol. Médias;3861;PROVFER;SALPGR;NÃO
+Desconto férias;3949;SALPGR;ADDFERIS;NÃO
+Desconto Abono Pecuniário;3999;SALPGR;ADDFERIS;NÃO
+Indenização rescisória 75% ? BEm;6038;DCAVISO;SALPGR;NÃO
+Indenização rescisória 100% ? BEm;6039;DCAVISO;SALPGR;NÃO
+Ind.rescisória 100% BEm Suspensão;6040;DCAVISO;SALPGR;NÃO
+I.N.S.S. Férias Folha;9103;SALPGR;INSSPGR;NÃO
+I.R. Férias Recolhido;9153;SALPGR;IRFPFPGR;NÃO
+Pagamento - Verba 9153 IR férias recolhido;39153;IRFPFPGR;CX;NÃO
+Pagamento - Verba 9154 IR 13º salário;39154;IRFPFPGR;CX;NÃO
+Pagamento - Verba 9171 IR PLR;39171;IRRFPLR;CX;NÃO
+Provisão - 13º salário;11000;DC13.SAL;PROVDEC;NÃO
+Provisão - FGTS 13º;11001;DCFGTS;PROVFGTS13;NÃO
+Provisão - INSS 13º;11002;DCINSS;PROVINSS13;NÃO
+Provisão - FPAS 13º;11003;DCINSS;PROVINSS13;NÃO
+Provisão - RAT 13º;11004;DCINSS;PROVINSS13;NÃO
+Provisão - RAT aposentadoria 13º;11005;DCINSS;PROVINSS13;NÃO
+Provisão - PIS 13º;11006;PIS;PROVPIS13;NÃO
+Provisão - Férias;11100;DCFERIAS;PROVFER;NÃO
+Provisão - 1/3 Férias;11101;DCFERIAS;PROVFER;NÃO
+Provisão - FGTS Férias;11102;DCFGTS;PROVFGTSFER;NÃO
+Provisão - INSS Férias;11103;DCINSS;PROVINSSFER;NÃO
+Provisão - FPAS Férias;11104;DCINSS;PROVINSSFER;NÃO
+Provisão - RAT Férias;11105;DCINSS;PROVINSSFER;NÃO
+Provisão - RAT Aposentadoria PIS férias;11106;DCINSS;PROVINSSFER;NÃO
+Provisão - PIS Férias;11107;PIS;PROVPISFER;NÃO
+Pagamento - FGTS 13º;12001;PROVFGTS13;FGTSPGR;NÃO
+Pagamento - INSS 13º;12002;PROVINSS13;INSSPGR;NÃO
+Pagamento - FPAS 13º;12003;PROVINSS13;INSSPGR;NÃO
+Pagamento - RAT 13º;12004;PROVINSS13;INSSPGR;NÃO
+Pagamento - RAT Aposentadoria 13º;12005;PROVINSS13;INSSPGR;NÃO
+Pagamento - PIS 13º;12006;PROVPIS13;PISPGR;NÃO
+Pagamento - FGTS GRRF 13º;12007;PROVFGTS13;FGTSPGR;NÃO
+Pagamento - FGTS Férias;12102;PROVFGTSFER;FGTSPGR;NÃO
+Pagamento - INSS Férias;12103;PROVINSSFER;INSSPGR;NÃO
+Pagamento - FPAS Férias;12104;PROVINSSFER;INSSPGR;NÃO
+Pagamento - RAT Férias;12105;PROVINSSFER;INSSPGR;NÃO
+Pagamento - RAT Aposentadoria Férias;12106;PROVINSSFER;INSSPGR;NÃO
+Pagamento - RAT PIS;12107;PROVPISFER;PISPGR;NÃO
+Pagamento - FGTS GRRF Férias;12109;PROVFGTSFER;FGTSPGR;NÃO
