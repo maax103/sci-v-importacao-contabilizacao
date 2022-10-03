@@ -1,0 +1,746 @@
+Descrição;Código;DÉBITO;CRÉDITO;INDIVIDUALIZAR
+Provisão - líquido GPS;10004;;;NÃO
+Provisão - NF retenção;10011;;;NÃO
+Provisão - FGTS;10015;;;NÃO
+Provisão - Contribuição Social;10016;;;NÃO
+Provisão - FGTS da GRRF;10017;;;NÃO
+Provisão - Contribuição Social da GRRF;10018;;;NÃO
+Provisão - Multa 40%;10020;;;NÃO
+Provisão - Multa 10%;10021;;;NÃO
+Provisão - PIS;10022;;;NÃO
+Provisão - GRRF Contribuição social patronal;10025;;;NÃO
+Provisão - NF cooperativa;10033;;;NÃO
+Provisão - IR funcionários;10034;;;NÃO
+Provisão - IR prolaboristas;10035;;;NÃO
+Provisão - IR autônomos;10036;;;NÃO
+Provisão - IR PLR funcionários;10038;;;NÃO
+Provisão - Compensação NF;11108;;;NÃO
+Pagamento - Líquido funcionários;20000;;;SIM
+Pagamento - Líquidos rescisões;20001;;;SIM
+Pagamento - Líquido prolaboristas;20002;;;SIM
+Pagamento - Líquido autônomos;20003;;;SIM
+Pagamento - Líquido GPS;20004;;;NÃO
+Pagamento - Líquido multas GPS;20012;;;NÃO
+Pagamento - FGTS;20015;;;NÃO
+Pagamento - Contribuição social;20016;;;NÃO
+Pagamento - FGTS da GRRF;20017;;;NÃO
+Pagamento - Contribuição social GRRF;20018;;;NÃO
+Pagamento - Multa GRRF;20019;;;NÃO
+Pagamento - Multa 40%;20020;;;NÃO
+Pagamento - Multa 10%;20021;;;NÃO
+Pagamento - PIS;20022;;;NÃO
+Pagamento - Multa PIS;20023;;;NÃO
+Pagamento - Multa IR;20024;;;NÃO
+Pagamento - GRCS Patronal;20025;;;NÃO
+Pagamento - Multas GRCS Patronal;20026;;;NÃO
+Pagamento - Líquido adiantamento funcionários;20027;;;SIM
+Pagamento - Líquido complemento;20028;;;SIM
+Pagamento - Líquido férias;20029;;;SIM
+Pagamento - Líquido adiantamento 13º;20030;;;SIM
+Pagamento - Líquido 13º;20031;;;SIM
+Pagamento - Líquido complemento 13º;20032;;;SIM
+Pagamento - Multa FGTS;20033;;;NÃO
+Pagamento - IR Funcionários;20036;;;NÃO
+Pagamento - Líquido PLR funcionários;20037;;;SIM
+Pagamento - IR prolaboristas;20038;;;NÃO
+Pagamento - IR autônomos;20039;;;NÃO
+Salário Mensalista;1;;;NÃO
+Salário Diarista;6;;;NÃO
+Salário Horista;7;;;NÃO
+Salário Aposentado;10;;;NÃO
+Bolsa de estudo - Estágio;20;;;NÃO
+Salário Doméstica c/ FGTS;25;;;NÃO
+Salário Doméstica;26;;;NÃO
+Honorário Autônomo;30;;;NÃO
+Pró-Labore proprietário/sócio;35;;;NÃO
+Salário Hora Normal;45;;;NÃO
+Salário Habitação;51;;;NÃO
+Salário Utilidade;52;;;NÃO
+Salário Habitação;53;;;NÃO
+Aluguel;54;;;NÃO
+Gratificações;60;;;NÃO
+Prêmio;65;;;NÃO
+Assiduidade;70;;;NÃO
+Quebra de Caixa;75;;;NÃO
+Abono;80;;;NÃO
+Pontos;85;;;NÃO
+Salário Semanal;96;;;NÃO
+Pró-Labore Semanal prioritário/sócio;97;;;NÃO
+Salário Semanal Autônomo;98;;;NÃO
+Adicional Insalubridade;101;;;NÃO
+Adicional Periculosidade;116;;;NÃO
+Adicional Noturno;131;;;NÃO
+Anuênio;146;;;NÃO
+Biênio;147;;;NÃO
+Triênio;148;;;NÃO
+Quinquênio;149;;;NÃO
+Decênio;150;;;NÃO
+Mensalidade Sindical;171;;;NÃO
+Contribuição Sindical;172;;;NÃO
+Contribuição Confederativa;173;;;NÃO
+Taxa Assistencial;174;;;NÃO
+Reversão Salarial;175;;;NÃO
+Subvenção Patronal;176;;;NÃO
+Subsídio Cônjuge;177;;;NÃO
+Vale Transporte;201;;;NÃO
+Vale Refeição vinculado ao PAT;202;;;NÃO
+Vale alimentação vinculado ao PAT;203;;;NÃO
+Vale Farmácia;204;;;NÃO
+Vale Transporte Empresa;205;;;NÃO
+Faltas não Justificadas Dias;216;;;NÃO
+Faltas não Justificadas Horas;217;;;NÃO
+Faltas não Justificadas Valor;218;;;NÃO
+Faltas Justificadas Dias;261;;;NÃO
+Faltas Justificadas Horas;262;;;NÃO
+Faltas Justificadas Valor;263;;;NÃO
+Comissões;311;;;NÃO
+Adicional Noturno Rendimento Variável;340;;;NÃO
+Salário Tarefeiro;349;;;NÃO
+Seguro de Vida em Grupo;351;;;NÃO
+Diárias;352;;;NÃO
+Diárias;353;;;NÃO
+Ajuda de Custos;354;;;NÃO
+Universidade;355;;;NÃO
+Horas Extras 50%;401;;;NÃO
+Horas Extras 55%;402;;;NÃO
+Horas Extras 60%;403;;;NÃO
+Horas Extras 65%;404;;;NÃO
+Horas Extras 70%;405;;;NÃO
+Horas Extras 75%;406;;;NÃO
+Horas Extras 80%;407;;;NÃO
+Horas Extras 85%;408;;;NÃO
+Horas Extras 90%;409;;;NÃO
+Horas Extras 95%;410;;;NÃO
+Horas Extras 100%;411;;;NÃO
+Horas Extras 105%;412;;;NÃO
+Horas Extras 110%;413;;;NÃO
+Horas Extras 115%;414;;;NÃO
+Horas Extras 120%;415;;;NÃO
+Horas Extras 125%;416;;;NÃO
+Horas Extras 130%;417;;;NÃO
+Horas Extras 135%;418;;;NÃO
+Horas Extras 140%;419;;;NÃO
+Horas Extras 145%;420;;;NÃO
+Horas Extras 150%;421;;;NÃO
+Horas Extras 175%;426;;;NÃO
+Horas Extras 180%;427;;;NÃO
+Horas Extras 200%;431;;;NÃO
+Horas Extras (Outras);432;;;NÃO
+Horas Extras 50% Noturna;451;;;NÃO
+Horas Extras 55% Noturna;452;;;NÃO
+Horas Extras 60% Noturna;453;;;NÃO
+Horas Extras 65% Noturna;454;;;NÃO
+Horas Extras 70% Noturna;455;;;NÃO
+Horas Extras 75% Noturna;456;;;NÃO
+Horas Extras 80% Noturna;457;;;NÃO
+Horas Extras 85% Noturna;458;;;NÃO
+Horas Extras 90% Noturna;459;;;NÃO
+Horas Extras 95% Noturna;460;;;NÃO
+Horas Extras 100% Noturna;461;;;NÃO
+Horas Extras 105% Noturna;462;;;NÃO
+Horas Extras 110% Noturna;463;;;NÃO
+Horas Extras 115% Noturna;464;;;NÃO
+Horas Extras 120% Noturna;465;;;NÃO
+Horas Extras 125% Noturna;466;;;NÃO
+Horas Extras 130% Noturna;467;;;NÃO
+Horas Extras 135% Noturna;468;;;NÃO
+Horas Extras 140% Noturna;469;;;NÃO
+Horas Extras 145% Noturna;470;;;NÃO
+Horas Extras 150% Noturna;471;;;NÃO
+Horas Extras 175% Noturna;476;;;NÃO
+Horas Extras 180% Noturna;477;;;NÃO
+Horas Extras 200% Noturna;481;;;NÃO
+Pensão Jurídica;501;;;NÃO
+Pensão Alimentícia;502;;;NÃO
+Despesas Médicas;521;;;NÃO
+D.S.R. Salário;541;;;NÃO
+D.S.R. Rendimentos Variáveis;542;;;NÃO
+D.S.R. Horas Extras;543;;;NÃO
+D.S.R. Salário Semanal;545;;;NÃO
+D.S.R. Faltas Horas;601;;;NÃO
+D.S.R. Faltas Dias;602;;;NÃO
+Licença Remunerada;655;;;NÃO
+Dias Feriados Acordo Sindicato;705;;;NÃO
+Desconto Adiantamento salarial;901;;;NÃO
+Adiantamento com Ded. I.R.;902;;;NÃO
+Adiantamento;916;;;NÃO
+Vale;917;;;NÃO
+Participação nos Lucros - PLR;991;;;NÃO
+Complemento de Férias;3005;;;NÃO
+Complemento de Férias;3049;;;NÃO
+1/3 Complemento de Férias;3051;;;NÃO
+Complemento de Abono Pecuniário;3071;;;NÃO
+1/3 Complemento de Abono Pecuniário;3091;;;NÃO
+Férias 1/12 Pagto em Folha Integral;3871;;;NÃO
+Férias 1/30 Pagto em Folha Proporcional;3881;;;NÃO
+1/3 Férias Pagto em Folha;3891;;;NÃO
+Desconto Adto. 13°;4405;;;NÃO
+Desconto Adto. 13º Contribuinte;4430;;;NÃO
+Ad. 13º Sit.Maternidade Empresa;4451;;;NÃO
+Ad. 13º Sit.Matern.Empresa Média HE;4452;;;NÃO
+Ad. 13º Sit.Matern.Empresa Média RV;4453;;;NÃO
+Ad. 13º Sit.Matern.Empresa Adicionais;4454;;;NÃO
+Ad.13º Sit. Matern. Emp. Prêmios Gratif.;4455;;;NÃO
+AD. 13º Compl. Sit. Maternidade Empresa;4456;;;NÃO
+AD.13º Comp.Sit.Maternidade Empresa HE;4457;;;NÃO
+AD.13º Comp.Sit.Maternidade Empresa RV;4458;;;NÃO
+AD.13º Comp.Sit.Maternidade Empresa Adic;4459;;;NÃO
+Ad. 13º Sit. Acidente de Trabalho;4461;;;NÃO
+Ad. 13º Sit. Ac. Trabalho Média HE;4462;;;NÃO
+Ad. 13º Sit. Ac. Trabalho Média RV;4463;;;NÃO
+Ad. 13º Sit. Ac. Trabalho Adic.;4464;;;NÃO
+Ad. 13º Sit. Auxílio Doença;4471;;;NÃO
+Ad. 13º Doença Relacionada ao Trabalho;4481;;;NÃO
+Ad. 13º Doença Rel. Trabalho Média HE;4482;;;NÃO
+Ad. 13º Doença Rel. Trabalho Média RV;4483;;;NÃO
+Ad. 13º Doença Rel. Trabalho Adic.;4484;;;NÃO
+Ad. 13º Sit. Serviço Militar;4491;;;NÃO
+Ad. 13º Pagamento em Folha Integral;4881;;;NÃO
+Ad. 13º Pagamento em Folha Proporcional;4891;;;NÃO
+Desc. Ad. 13º Sal. Sit. Acid. Trabalho;4911;;;NÃO
+Desc. Ad. 13º Sal. Sit Aux. Doença;4921;;;NÃO
+Desc. Ad. 13º Sal.Doença Rel. Trabalho;4931;;;NÃO
+Desc. Ad. 13º Sal. Serviço Militar;4941;;;NÃO
+Desconto Ad.13º Salário Situação;4951;;;NÃO
+13° Salário;5005;;;NÃO
+13º Salário Contribuinte;5030;;;NÃO
+13° Salário;5099;;;NÃO
+13° Adic. Insalubridade;5101;;;NÃO
+13° Adic. Periculosidade;5111;;;NÃO
+13° Adic. Noturno;5121;;;NÃO
+13° Anuênio;5131;;;NÃO
+13° Biênio;5132;;;NÃO
+13° Triênio;5133;;;NÃO
+13° Quinquênio;5134;;;NÃO
+13° Decênio;5135;;;NÃO
+13° Adicionais;5199;;;NÃO
+13° Média H.E.;5201;;;NÃO
+13° Média D.S.R. H.E.;5202;;;NÃO
+13° Média R.V.;5203;;;NÃO
+13° Média D.S.R. R.V.;5204;;;NÃO
+13° Médias;5299;;;NÃO
+Desconto 13° Salário;5405;;;NÃO
+13º Pensão Alimenticia;5421;;;NÃO
+13º Salário Situação Maternidade Empresa;5451;;;NÃO
+13º Situação Mat. Emp. Média HE;5452;;;NÃO
+13º Situação Mat. Emp. Média RV;5453;;;NÃO
+13º Situação Mat. Emp. Média Adicionais;5454;;;NÃO
+13ºSal.Situação Mat. Empr. Prêmios Grat.;5455;;;NÃO
+13º Comp.Situação Maternidade Empresa;5456;;;NÃO
+13º SITUAÇÃO MATERNIDADE EMPRESA HE;5457;;;NÃO
+13º Comp.Situação Maternidade Empresa RV;5458;;;NÃO
+13º Comp.Sit. Maternidade Empresa Adic.;5459;;;NÃO
+13º Situação Acidente de Trabalho;5461;;;NÃO
+13º Sit. Ac. Trabalho Média HE;5462;;;NÃO
+13º Sit. Ac. Trabalho Média RV;5463;;;NÃO
+13º Sit. Ac. Trabalho Média Adicionais;5464;;;NÃO
+13º Situação Auxílio Doença;5471;;;NÃO
+13º Doença Relacionada ao Trabalho;5481;;;NÃO
+13º Doença Rel. Trabalho Méd. HE;5482;;;NÃO
+13º Doença Rel. Trabalho Méd. RV;5483;;;NÃO
+13º Doença Rel. Trabalho Méd. Adic.;5484;;;NÃO
+13º Situação Serviço Militar;5491;;;NÃO
+Complemento 13°;5505;;;NÃO
+Complemento 13°;5599;;;NÃO
+Complemento 13° Adic. Insalubridade;5601;;;NÃO
+Complemento 13° Adic. Periculosidade;5611;;;NÃO
+Complemento 13° Adic. Noturno;5621;;;NÃO
+Complemento 13° Anuênio;5631;;;NÃO
+Complemento 13° Biênio;5632;;;NÃO
+Complemento 13° Triênio;5633;;;NÃO
+Complemento 13° Quinquênio;5634;;;NÃO
+Complemento 13° Decênio;5635;;;NÃO
+Complemento 13° Adicionais;5699;;;NÃO
+Complemento 13° Média H.E.;5701;;;NÃO
+Complemento 13° Média D.S.R. H.E.;5702;;;NÃO
+Complemento 13° Média R.V.;5703;;;NÃO
+Complemento 13° Média D.S.R. R.V.;5704;;;NÃO
+Complemento 13° Médias;5799;;;NÃO
+Complemento 13º Sit.Maternidade Empresa;5851;;;NÃO
+Compl. 13º Sit.Mat.Empresa Média HE;5852;;;NÃO
+Compl. 13º Sit.Mat.Empresa Média RV;5853;;;NÃO
+Compl. 13º Sit.Mat.Empresa Adic.;5854;;;NÃO
+Complemento 13º Sit.Acidente de Trabalho;5861;;;NÃO
+Compl. 13º Acidente de Trabalho Média HE;5862;;;NÃO
+Compl. 13º Acidente de Trabalho Média RV;5863;;;NÃO
+Compl. 13º Acidente de Trabalho Adic.;5864;;;NÃO
+Complemento 13º Auxílio Doença;5871;;;NÃO
+Complemento 13º Doença Rel. Trabalho;5881;;;NÃO
+Complemento 13º Serviço Militar;5891;;;NÃO
+Desc.13º Sal. Sit. Acidente de Trabalho;5901;;;NÃO
+Desc. 13º Sal. Sit. Auxílio Doença;5911;;;NÃO
+Desc. 13º Sal. Sit. Doença Rel. Trabalho;5921;;;NÃO
+Desc. 13º Sal. Sit Serviço Militar;5931;;;NÃO
+Desc. Comp. 13º Acidente de Trabalho;5951;;;NÃO
+Desc. Comp. 13º Auxílio Doença;5961;;;NÃO
+Desc. Comp. 13º Doen.Rel.Trabalho;5971;;;NÃO
+Desc. Comp. 13º Serviço Militar;5981;;;NÃO
+Saldo Salário Rescisão;6005;;;NÃO
+Saldo de Salário Rescisão;6006;;;NÃO
+Indenização Artigo 479;6031;;;NÃO
+Multa Rescisória;6032;;;NÃO
+Descanso Indenizado;6033;;;NÃO
+Indenização Término de Contrato;6034;;;NÃO
+Rescisão Aviso Prévio Descontado;6051;;;NÃO
+Rescisão Aviso Prévio Indenizado;6076;;;NÃO
+Rescisão Férias Proporcionais;6105;;;NÃO
+Rescisão Férias Proporcionais;6129;;;NÃO
+Rescisão 1/3 Férias Proporcionais;6131;;;NÃO
+Rescisão Férias Adicionais;6149;;;NÃO
+Rescisão Férias Média H.E.;6151;;;NÃO
+Rescisão Férias Média D.S.R. H.E.;6152;;;NÃO
+Rescisão Férias Média R.V.;6153;;;NÃO
+Rescisão Férias Média D.S.R. R.V.;6154;;;NÃO
+Rescisão Férias Médias;6199;;;NÃO
+Rescisão Férias Indenizadas;6205;;;NÃO
+Rescisão Férias Indenizadas;6249;;;NÃO
+Rescisão 1/3 Férias Indenizadas;6251;;;NÃO
+Rescisão Férias Ind. Adicionais;6349;;;NÃO
+Rescisão Férias Ind. Média H.E.;6351;;;NÃO
+Rescisão Férias Ind. Média DSR H.E.;6352;;;NÃO
+Rescisão Férias Ind. Média R.V.;6353;;;NÃO
+Rescisão Férias Ind. Média DSR R.V.;6354;;;NÃO
+Rescisão Férias Ind. Médias;6399;;;NÃO
+Rescisão Férias Vencidas;6405;;;NÃO
+Rescisão Férias Vencidas;6449;;;NÃO
+Rescisão 1/3 Férias Vencidas;6451;;;NÃO
+Rescisão Férias Vencidas Adicionais;6549;;;NÃO
+Rescisão Férias Vencidas Média H.E.;6551;;;NÃO
+Rescisão Férias Vencidas Média DSR H.E.;6552;;;NÃO
+Rescisão Férias Vencidas Média R.V.;6553;;;NÃO
+Rescisão Férias Vencidas Média DSR R.V.;6554;;;NÃO
+Rescisão Férias Vencidas Médias;6599;;;NÃO
+Rescisão Férias em Dobro;6605;;;NÃO
+Rescisão Férias em Dobro;6649;;;NÃO
+Rescisão 1/3 Férias em Dobro;6651;;;NÃO
+Rescisão Férias em Dobro Adicionais;6749;;;NÃO
+Rescisão Férias em Dobro Média H.E.;6751;;;NÃO
+Rescisão Férias em Dobro Média DSR H.E.;6752;;;NÃO
+Rescisão Férias em Dobro Média R.V.;6753;;;NÃO
+Rescisão Férias em Dobro Média DSR R.V.;6754;;;NÃO
+Rescisão Férias em Dobro Médias;6799;;;NÃO
+Desc. Férias 1/12 Pagamento em Folha;6991;;;NÃO
+Rescisão 13° Salário;7005;;;NÃO
+Rescisão 13° Salário;7049;;;NÃO
+Rescisão 13° Salário Adicionais;7099;;;NÃO
+Rescisão 13° Salário Méd. H.E.;7101;;;NÃO
+Rescisão 13° Salário Média D.S.R. H.E.;7102;;;NÃO
+Rescisão 13° Salário Méd. R.V.;7103;;;NÃO
+Rescisão 13° Salário Média D.S.R. R.V.;7104;;;NÃO
+Rescisão 13° Salário Médias;7199;;;NÃO
+Rescisão 13° Salário 1/12 Indenizado;7205;;;NÃO
+Rescisão 13° Salário 1/12 Indenizado;7249;;;NÃO
+Rescisão 13° Salário 1/12 Ind. Adic.;7299;;;NÃO
+Rescisão 13° Salário 1/12 Ind. Méd. H.E;7301;;;NÃO
+Rescisão 13° 1/12 Ind. Média DSR HE;7302;;;NÃO
+Rescisão 13° Salário 1/12 Ind. Méd. R.V;7303;;;NÃO
+Rescisão 13° 1/12 Ind. Média DSR RV;7304;;;NÃO
+Rescisão 13° Salário 1/12 Ind. Médias;7399;;;NÃO
+13º Situação Rescisão Matern.Empresa;7451;;;NÃO
+13º Situação Rescisão Mat. Emp. Med HE;7453;;;NÃO
+13º Situação Rescisão Mat. Emp. Med RV;7454;;;NÃO
+13º Situação Rescisão Mat. Emp. Med Adic;7455;;;NÃO
+13º Situação Resc. Desconto Mat. Empresa;7471;;;NÃO
+Rescisão Desconto Adiantamento 13° Sal.;7505;;;NÃO
+Rescisão Desconto 13° Salario;7555;;;NÃO
+Diferença 13º Salário Pago;7605;;;NÃO
+Desc. Ad. 13º Sal. Pago em Folha;7991;;;NÃO
+Complemento situação maternidade empresa;8002;;;NÃO
+Salário Maternidade;8005;;;NÃO
+Situação Maternidade Empresa;8006;;;NÃO
+Situação Maternidade Pro-Labore;8007;;;NÃO
+Salário Maternidade;8049;;;NÃO
+Complemento maternidade emp. adicional;8051;;;NÃO
+Situação Maternidade Adicionais;8099;;;NÃO
+Situação Maternidade Média H.E.;8101;;;NÃO
+Situação Maternidade Média D.S.R. H.E.;8102;;;NÃO
+Situação Maternidade Média R.V.;8103;;;NÃO
+Situação Maternidade Média D.S.R. R.V.;8104;;;NÃO
+Situação Maternidade Média HE Empresa;8105;;;NÃO
+Situação Maternidade Média Dsr HE;8106;;;NÃO
+Situação Maternidade Média Rv Empresa;8107;;;NÃO
+Situação Maternidade Média Dsr RV;8108;;;NÃO
+Comp. Situação Maternidade Médias HE;8109;;;NÃO
+Situação Maternidade Adicionais Empresa;8110;;;NÃO
+Comp. Situação Maternidade Médias RV;8111;;;NÃO
+Comp. Sit. Maternidade Médias DSR HE;8112;;;NÃO
+Comp. Sit. Maternidade Médias DSR RV;8113;;;NÃO
+Situação Maternidade Médias;8199;;;NÃO
+Sit. Aux. Doença maior que a carência;8205;;;NÃO
+Aux.Doe. maior que a carência Prêm.Grat.;8206;;;NÃO
+Aux. Doença maior que a carência;8249;;;NÃO
+Aux.Doe. maior que a carência Adicional;8299;;;NÃO
+Aux.Doe.Med. H.E. maior que a carência;8301;;;NÃO
+Aux.Doe.Med. DSR HE maior que carência;8302;;;NÃO
+Aux.Doe.Med. R.V. maior que a carência;8303;;;NÃO
+Aux.Doe.Med. DSR RV maior que carência;8304;;;NÃO
+Atestado doença com incidência;8351;;;NÃO
+Atestado doença Adicional com incidência;8361;;;NÃO
+Aux.Doe. Média H.E. menor que a carência;8371;;;NÃO
+Aux.Doe.Med. DSR HE menor que a carência;8372;;;NÃO
+Aux.Doe. Média R.V. menor que a carência;8373;;;NÃO
+Aux.Doe.Med. DSR RV menor que a carência;8374;;;NÃO
+Aux.Doença Medias;8379;;;NÃO
+Aux. Doença Médias maior que a carência;8399;;;NÃO
+Acidente Trabalho maior que a carência;8401;;;NÃO
+Acidente Trabalho maior que a carência;8405;;;NÃO
+Acidente Trabalho maior que a carência;8449;;;NÃO
+Ac.Trab. maior que a carência Adicionais;8499;;;NÃO
+Ac. Trab. Med. H.E. maior que a carência;8501;;;NÃO
+Ac.Trab.Med. DSR HE maior que a carência;8502;;;NÃO
+Ac. Trab. Med. R.V. maior que a carência;8503;;;NÃO
+Ac.Trab.Med. DSR RV maior que a carência;8504;;;NÃO
+Ac. de Trab. Médias maior que a carência;8599;;;NÃO
+Salário Situação Serviço Militar;8605;;;NÃO
+Salário Situação Serviço Militar;8649;;;NÃO
+Situação Serviço Militar Adicionais;8699;;;NÃO
+Situação Serviço Militar Média H.E.;8701;;;NÃO
+Situação Serviço Militar Média DSR H.E.;8702;;;NÃO
+Situação Serviço Militar Média R.V.;8703;;;NÃO
+Situação Serviço Militar Média DSR R.V.;8704;;;NÃO
+Situação Serviço Militar Médias;8799;;;NÃO
+Desconto Salário Situação;8801;;;NÃO
+Aposent. Invalidez maior que a carência;8811;;;NÃO
+Apos.Inval. RV maior que a carência;8821;;;NÃO
+Apos.Inval. DSR RV maior que a carência;8822;;;NÃO
+Apos.Inval. HE maior que a carência;8823;;;NÃO
+Apos.Inval. DSR HE maior que a carência;8824;;;NÃO
+Apos.Inval.maior que a carência Adiciona;8831;;;NÃO
+Afastamento por Mandato Sindical;8851;;;NÃO
+Mandato Sindical Horas Extras;8861;;;NÃO
+Mandato Sindical DSR H.E.;8862;;;NÃO
+Mandato Sindical R.V.;8863;;;NÃO
+Mandato Sindical DSR R.V.;8864;;;NÃO
+Mandato Sindical Adicional;8871;;;NÃO
+Aux.Doe.Trab. maior que a carência;8905;;;NÃO
+Aux.Doe.Trab. Adic. maior que a carência;8919;;;NÃO
+Aux.Doe.Trab.Med.HE maior que a carência;8921;;;NÃO
+Doe.Trab.Med.DSR HE maior que a carência;8922;;;NÃO
+Aux.Doe.Trab.Med.RV maior que a carência;8923;;;NÃO
+Doe.Trab.Med.DSR RV maior que a carência;8924;;;NÃO
+Aux.Doe.Trab.Med. maior que a carência;8929;;;NÃO
+Salário Situação;8955;;;NÃO
+Situação Adicionais;8969;;;NÃO
+Situação Média H.E.;8971;;;NÃO
+Situação Médias DSR H.E.;8972;;;NÃO
+Situação Média R.V.;8973;;;NÃO
+Situação Médias DSR R.V.;8974;;;NÃO
+Situação Médias;8979;;;NÃO
+Arredondamento Desconto Adiantamento;9013;;;NÃO
+Arredondamento Desconto Férias;9023;;;NÃO
+Arredondamento Provento 13°;9032;;;NÃO
+Arredondamento Desconto 13°;9033;;;NÃO
+Estouro Provento;9051;;;NÃO
+Estouro Desconto;9052;;;NÃO
+I.N.S.S.;9101;;;NÃO
+I.N.S.S. 13° Salário;9104;;;NÃO
+Contribuição SEST/SENAT;9401;;;NÃO
+Salário Família;9501;;;NÃO
+Salário Família Férias;9502;;;NÃO
+Salário Família Situação;9503;;;NÃO
+Pagamento - Verba 171 Mensalidade sindical;30171;;;NÃO
+Pagamento - Verba 172 Contribuição sindical;30172;;;NÃO
+Pagamento - Verba 173 Contribuição confederativa;30173;;;NÃO
+Pagamento - Verba 174 Taxa assistencial;30174;;;NÃO
+Pagamento - Verba 175 Reversão salarial;30175;;;NÃO
+I.R. 13° Salário;9154;;;NÃO
+Provisão - Contribuinte individual prolaborista;10013;;;NÃO
+Provisão - Contribuinte individual autônomo;10014;;;NÃO
+Provisão - PLR Prolaboristas;10041;;;NÃO
+Provisão - IR PLR autônomo;10042;;;NÃO
+Provisão - Arredodamento folha funcionários;10043;;;NÃO
+Provisão - Arredondamento folha prolaboristas;10044;;;NÃO
+Provisão - Arredondamento folha autônomos;10045;;;NÃO
+Provisão - Arredodamento folha funcionários desconto;10046;;;NÃO
+Provisão - Arredondamento folha prolaboristas desconto;10047;;;NÃO
+Provisão - Arredondamento folha autônomos desconto;10048;;;NÃO
+Provisão - Aluguel locatário;10050;;;NÃO
+Provisão - IR Aluguel;10051;;;NÃO
+Provisão - DARF PBM;10060;;;NÃO
+Provisão - compensação PBM;10061;;;NÃO
+Provisão - compensação MEI;10062;;;NÃO
+Pagamento - NF cooperativa;20035;;;NÃO
+Pagamento - Líquido PLR prolaboristas;20040;;;SIM
+Pagamento - Líquido PLR autônomos;20041;;;SIM
+Pagamento - Aluguel locatário;20050;;;NÃO
+Pagamento - IR aluguel;20051;;;NÃO
+Pagamento - Multa aluguel;20052;;;NÃO
+Pagamento - Juros PIS;20055;;;NÃO
+Pagamento - Juros IR;20056;;;NÃO
+Pagamento - Líquido transferências;20058;;;SIM
+Pagamento - Líquido adiantamento prolaboristas;20059;;;SIM
+Pagamento - DARF PBM;20060;;;NÃO
+Pagamento - Multas PBM;20061;;;NÃO
+Pagamento - Juros PBM;20062;;;NÃO
+Horas normais (Contrato intermitente);8;;;NÃO
+Honorários não residentes com INSS;31;;;NÃO
+Honorários não residentes sem INSS;32;;;NÃO
+Pró-labore diretor não empregado c/ FGTS;36;;;NÃO
+Salário Habitação;55;;;NÃO
+Salário Utilidade;56;;;NÃO
+Salário Habitação;57;;;NÃO
+Aluguel;58;;;NÃO
+Gratificações;61;;;NÃO
+Prêmio;66;;;NÃO
+Assiduidade;71;;;NÃO
+Quebra de Caixa;76;;;NÃO
+Abono;81;;;NÃO
+Pontos;86;;;NÃO
+Salário Quinzenal;121;;;NÃO
+Pró-Labore Quinzenal proprietário/sócio;122;;;NÃO
+Salário Quinzenal Autônomo;123;;;NÃO
+Adicional Noturno Horas;440;;;NÃO
+Despesas Médicas Titular;522;;;NÃO
+Despesas Médicas Dependente;523;;;NÃO
+Coparticipação Titular;524;;;NÃO
+Coparticipação Dependente;525;;;NÃO
+Empréstimo consignado - Parcelamento;531;;;NÃO
+D.S.R. Horista Especial;546;;;NÃO
+D.S.R. Salário Quinzenal;547;;;NÃO
+Licença Remunerada Estagiário;656;;;NÃO
+Complemento 13º Folha Normal;951;;;NÃO
+Adiantamento de 13º nas férias;2701;;;NÃO
+Complemen. Recesso remunerado estágio;3006;;;NÃO
+Férias 1/12 Intermitente;3872;;;NÃO
+1/3 Férias Contrato intermitente;3892;;;NÃO
+Desconto Adto. 13° trans;4301;;;NÃO
+Ad.13º Sit.Acid. Trab. Prêmios Gratific.;4465;;;NÃO
+Ad. 13º Sit.Matern.Empresa Média DSR HE;4466;;;NÃO
+Ad. 13º Sit.Matern.Empresa Média DSR RV;4467;;;NÃO
+AD.13º Comp.Sit.Maternidade Emp. DSR HE;4468;;;NÃO
+AD.13º Comp.Sit.Maternidade Emp. DSR RV;4469;;;NÃO
+Ad. 13º Sit. Auxílio Doença Média HE;4472;;;NÃO
+Ad. 13º Sit. Auxílio Doença Média RV;4473;;;NÃO
+Ad. 13º Sit. Aux. Doença Prêmios Gratif.;4475;;;NÃO
+Ad. 13º Sit. Ac. Trabalho Média DSR HE;4476;;;NÃO
+Ad. 13º Sit. Ac. Trabalho Média DSR RV;4477;;;NÃO
+Ad. 13º Sit. Auxílio Doença Méd. DSR HE;4478;;;NÃO
+Ad. 13º Sit. Auxílio Doença Méd. DSR RV;4479;;;NÃO
+Ad.13º Doe.Relac. Trabalho Prêmios Grat.;4485;;;NÃO
+Ad. 13º Doença Rel. Trabalho Méd. DSR HE;4486;;;NÃO
+Ad. 13º Doença Rel. Trabalho Méd. DSR RV;4487;;;NÃO
+Ad. 13º Sit. Serviço Militar Média HE;4492;;;NÃO
+Ad. 13º Sit. Serviço Militar Média RV;4493;;;NÃO
+Ad.13ºSit. Serviço Militar Prêmios Grat.;4495;;;NÃO
+Ad. 13º Sit. Serviço Militar Méd. DSR HE;4496;;;NÃO
+Ad. 13º Sit. Serviço Militar Méd. DSR RV;4497;;;NÃO
+Pensão Adiantamento 13º;4801;;;NÃO
+13° Salário Prêmios e Gratificações;5006;;;NÃO
+13º Salário 1/12 Contrato Intermintente;5007;;;NÃO
+Desconto 13º salário transferência;5301;;;NÃO
+13º Sit. Acid. Trabalho Prêmios Gratif.;5465;;;NÃO
+13º Situação Mat. Emp. Média DSR HE;5466;;;NÃO
+13º Situação Mat. Emp. Média DSR RV;5467;;;NÃO
+13º Comp. Sit. Maternidade Emp. DSR HE;5468;;;NÃO
+13º Comp. Sit. Maternidade Emp. DSR RV;5469;;;NÃO
+13º Situação Auxílio Doença Média HE;5472;;;NÃO
+13º Situação Auxílio Doença Média RV;5473;;;NÃO
+13º Situação Aux. Doença Prêmios Gratif.;5475;;;NÃO
+13º Sit. Ac. Trabalho Média DSR HE;5476;;;NÃO
+13º Sit. Ac. Trabalho Média DSR RV;5477;;;NÃO
+13º Situação Auxílio Doença Méd. DSR HE;5478;;;NÃO
+13º Situação Auxílio Doença Méd. DSR RV;5479;;;NÃO
+13º Doença Relac. Trab. Prêmios Gratif.;5485;;;NÃO
+13º Doença Rel. Trabalho Méd. DSR HE;5486;;;NÃO
+13º Doença Rel. Trabalho Méd. DSR RV;5487;;;NÃO
+13º Situação Serviço Militar Média HE;5492;;;NÃO
+13º Situação Serviço Militar Média RV;5493;;;NÃO
+13º Situação Serv. Militar Prêmios Grat.;5495;;;NÃO
+13º Situação Serviço Militar Méd. DSR HE;5496;;;NÃO
+13º Situação Serviço Militar Méd. DSR RV;5497;;;NÃO
+Complemento 13° Prêmios e Gratificações;5506;;;NÃO
+Compl.13º Sit. Mat. Empr. Prêmios Grat.;5855;;;NÃO
+Compl. 13º Sit.Mat.Empresa Média DSR HE;5856;;;NÃO
+Compl. 13º Sit.Mat.Empresa Média DSR RV;5857;;;NÃO
+Compl.13º Sit.Acid. Trab. Prêmios Grat.;5865;;;NÃO
+Compl. 13º Ac. de Trabalho Média DSR HE;5866;;;NÃO
+Compl. 13º Ac. de Trabalho Média DSR RV;5867;;;NÃO
+Compl. 13º Auxílio Doença Média HE;5872;;;NÃO
+Compl. 13º Auxílio Doença Média RV;5873;;;NÃO
+Compl. 13º Aux. Doença Prêmios Gratif.;5875;;;NÃO
+Compl. 13º Auxílio Doença Média DSR HE;5876;;;NÃO
+Compl. 13º Auxílio Doença Média DSR RV;5877;;;NÃO
+Compl. 13º Doença Rel. Trabalho Méd. HE;5882;;;NÃO
+Compl. 13º Doença Rel. Trabalho Méd. RV;5883;;;NÃO
+Compl.13ºDoença Rel. Trab. Prêmios Grat.;5885;;;NÃO
+Compl. 13º Doença Rel. Trab. Méd. DSR HE;5886;;;NÃO
+Compl. 13º Doença Rel. Trab. Méd. DSR RV;5887;;;NÃO
+Compl. 13º Serviço Militar Méd. HE;5892;;;NÃO
+Compl. 13º Serviço Militar Méd. RV;5893;;;NÃO
+Compl.13º Serviço Militar Prêmios Grat.;5895;;;NÃO
+Compl. 13º Serviço Militar Méd. DSR HE;5896;;;NÃO
+Compl. 13º Serviço Militar Méd. DSR RV;5897;;;NÃO
+Saldo Sal.Rescisão Prêmios e Gratific.;6007;;;NÃO
+Multa rescisória artigo 477;6035;;;NÃO
+Rescisão Aviso Prévio Descontado Proporc;6052;;;NÃO
+Aviso Prévio Indenizado Proporcional;6077;;;NÃO
+Rescisão Av.Prév.Indenizado Prêmios Gra.;6078;;;NÃO
+Rescisão Férias Proporc. Prêmios Gratif.;6106;;;NÃO
+Rescisão Férias Ind. Prêmios Grat.;6206;;;NÃO
+Rescisão Férias Vencidas Prêmios Gratif.;6406;;;NÃO
+Rescisão Férias em Dobro Prêmios e Grat.;6606;;;NÃO
+Rescisão 13º Salário Prêmios e Gratific.;7006;;;NÃO
+Rescisão 13º Sal. 1/12 Ind. Prêmios Gra.;7206;;;NÃO
+13ºSit.Rescisão Matern. Empr. Prêmios G.;7452;;;NÃO
+13º rescisão complemento sit. mat. emp.;7456;;;NÃO
+13º rescisao complemento sit.mat.emp. HE;7457;;;NÃO
+13º rescisao complemento sit.mat.emp. RV;7458;;;NÃO
+13º rescisao comp. sit.mat.emp. adic;7459;;;NÃO
+13º Sit. Rescisão Mat. Emp. Méd. DSR HE;7466;;;NÃO
+13º Sit. Rescisão Mat. Emp. Méd. DSR RV;7467;;;NÃO
+13º rescisão compl. sit.mat.emp. DSR HE;7476;;;NÃO
+13º rescisão compl. sit.mat.emp. DSR RV;7477;;;NÃO
+13º Sit. Rescisão  Acidente de Trabalho;7481;;;NÃO
+13ºSit. Rescisão Ac. Trabalho Prêmios G.;7482;;;NÃO
+13º Sit. Rescisão Acid.de Trabalho HE;7483;;;NÃO
+13º Sit. Rescisão Acid.de Trabalho RV;7484;;;NÃO
+13º Sit. Resc. Acid.de Trabalho DSR HE;7486;;;NÃO
+13º Sit. Resc. Acid.de Trabalho DSR RV;7487;;;NÃO
+13º Sit. Rescisão Desconto Ac. Trabalho;7491;;;NÃO
+Rescisão Desconto 13° Maternidade;7651;;;NÃO
+Situação maternidade prêmios e gratif.;8015;;;NÃO
+Situação Maternidade Emp. Prêmios Grat.;8016;;;NÃO
+Situação Maternidade Empresa Quinzenal;8047;;;NÃO
+Situação Maternidade Empresa Semanal;8048;;;NÃO
+Salário Maternidade Pro;8132;;;NÃO
+Aux.Doe. maior que a carência Quinzenal;8247;;;NÃO
+Aux.Doe. maior que a carência Semanal;8248;;;NÃO
+Aux.Doe. menor que a carência Prêm.Grat.;8352;;;NÃO
+Aux. Doença menor que a carência Quinzen;8358;;;NÃO
+Aux. Doença menor que a carência Semanal;8359;;;NÃO
+Ac.Trab. maior que a carência Prêm.Grat.;8406;;;NÃO
+Ac.Trab. maior que a carência Quinzenal;8447;;;NÃO
+Ac.Trab. maior que a carência Semanal;8448;;;NÃO
+Sal. Sit. Serviço Militar Prêmios Grat.;8606;;;NÃO
+Salário Situação Serv. Militar Quinzenal;8647;;;NÃO
+Salário Situação Serv. Militar Semanal;8648;;;NÃO
+Apos.Inv.maior que a carência Prêm.Grat.;8812;;;NÃO
+Apos.Inv. maior que a carência Quinzenal;8818;;;NÃO
+Apos.Inv. maior que a carência Semanal;8819;;;NÃO
+Afast. Mandado Sindical Prêmios Gratif.;8852;;;NÃO
+Afast. por Mandato Sindical Quinzenal;8858;;;NÃO
+Afast. por Mandato Sindical Semanal;8859;;;NÃO
+Atestado acid. trabalho com incidência;8891;;;NÃO
+Ac.Trab. menor que a carência Prêm.Grat.;8892;;;NÃO
+Aux.Doe.Tra.maior que a carência Prê.Gra;8906;;;NÃO
+Sal.Situação Doença Rel. Trab. Quinzenal;8908;;;NÃO
+Doe.Rel.Trab.Seman. maior que a carência;8909;;;NÃO
+Atestado acid. trabalho Adic. com ind.;8931;;;NÃO
+Ac. Trab. Med. H.E. menor que a carência;8941;;;NÃO
+Ac.Trab.Med. DSR HE menor que a carência;8942;;;NÃO
+Ac. Trab. Med. R.V. menor que a carência;8943;;;NÃO
+Ac.Trab.Med. DSR RV menor que a carência;8944;;;NÃO
+Aci. Trab. Medias menor que a carência;8949;;;NÃO
+Salário Situação Prêmios e Gratificações;8956;;;NÃO
+Salário Situação Quinzenal;8958;;;NÃO
+Salário Situação Semanal;8959;;;NÃO
+Arredondamento Provento 13º transf;9042;;;NÃO
+Arredondamento Desconto 13º transf;9043;;;NÃO
+I.S.S.;9135;;;NÃO
+1/3 Férias (Covid-19);3896;;;NÃO
+1/3 Abono Pecuniário (Covid-19);3897;;;NÃO
+1/3 Férias Dobro (Covid-19);3898;;;NÃO
+1/3 Abono Pecuniário Dobro (Covid-19);3899;;;NÃO
+Horas noturnas (Contrato intermitente);9;;;NÃO
+Ajuda compensatória mensal obrigatória;356;;;NÃO
+Ajuda compensatória espontânea (%);357;;;NÃO
+Ajuda compensatória espontânea ($);358;;;NÃO
+Férias 1/12 Verde Amarelo;3873;;;NÃO
+1/3 Férias Verde Amarelo;3893;;;NÃO
+Desconto de férias antecipadas;3901;;;NÃO
+Adiantamento 13° Salário;4005;;;NÃO
+Adiantamento 13º Salário Prêmios Gratif.;4006;;;NÃO
+Adto. 13º Contribuinte;4030;;;NÃO
+Adto. 13°;4099;;;NÃO
+Adto. 13° Adic. Insalubridade;4101;;;NÃO
+Adto. 13° Adic. Periculosidade;4111;;;NÃO
+Adto. 13° Adic. Noturno;4121;;;NÃO
+Adto. 13° Anuênio;4131;;;NÃO
+Adto. 13° Biênio;4132;;;NÃO
+Adto. 13° Triênio;4133;;;NÃO
+Adto. 13° Quinquênio;4134;;;NÃO
+Adto. 13° Decênio;4135;;;NÃO
+Adto. 13° Adicionais;4199;;;NÃO
+Adto. 13° Média H.E.;4201;;;NÃO
+Adto. 13° Média D.S.R. H.E.;4202;;;NÃO
+Adto. 13° Média R.V.;4203;;;NÃO
+Adto. 13° Média D.S.R. R.V.;4204;;;NÃO
+Adto. 13° Médias;4299;;;NÃO
+13º Salário 1/12 Verde Amarelo;5008;;;NÃO
+Indenização rescisória 50% ? BEm;6037;;;NÃO
+Dedução Covid-19 - 02/04/2020;9601;;;NÃO
+Férias Folha;3105;;;NÃO
+Recesso remunerado Folha - Estágio;3106;;;NÃO
+Férias Folha;3125;;;NÃO
+Demonstrativo Férias Folha Pensão;3130;;;NÃO
+Férias Folha;3149;;;NÃO
+1/3 Férias Folha;3151;;;NÃO
+Férias Adicionais Folha;3248;;;NÃO
+Férias Adicionais Folha;3249;;;NÃO
+Férias Média H.E. Folha;3251;;;NÃO
+Férias Média D.S.R. H.E. Folha;3252;;;NÃO
+Férias Média R.V. Folha;3253;;;NÃO
+Férias Média D.S.R. R.V. Folha;3254;;;NÃO
+Férias Médias Folha;3299;;;NÃO
+FÉRIAS FOLHA MÉDIAS RV;3301;;;NÃO
+Abono Pecuniário Folha;3355;;;NÃO
+Abono Pecuniário Folha;3399;;;NÃO
+1/3 Abono Pecuniário Folha;3401;;;NÃO
+Abono Pec. Férias Adicionais Folha;3499;;;NÃO
+Abono Férias Média H.E. Folha;3501;;;NÃO
+Abono Férias Média D.S.R. H.E. Folha;3502;;;NÃO
+Abono Férias Média R.V. Folha;3503;;;NÃO
+Abono Férias Média D.S.R. R.V. Folha;3504;;;NÃO
+Abono Férias Médias;3599;;;NÃO
+Férias Dobro Folha;3605;;;NÃO
+Férias Dobro Folha;3649;;;NÃO
+1/3 Férias Dobro Folha;3651;;;NÃO
+Férias Dobro Adicionais Folha;3749;;;NÃO
+Férias Dobro Média H.E. Folha;3751;;;NÃO
+Férias Dobro Média D.S.R. H.E. Folha;3752;;;NÃO
+Férias Dobro Média R.V. Folha;3753;;;NÃO
+Férias Dobro Média D.S.R. R.V. Folha;3754;;;NÃO
+Férias Dobro Médias Folha;3799;;;NÃO
+Dem. Abono Pecuniário em Dobro Folha;3831;;;NÃO
+1/3 Abono Pecuniário em Dobro Folha;3841;;;NÃO
+Dem. Abono Pecuniário Dobro Folha Adic.;3851;;;NÃO
+Dem.Abono Pecuniário Dobro Fol. Médias;3861;;;NÃO
+Desconto férias;3949;;;NÃO
+Desconto Abono Pecuniário;3999;;;NÃO
+Indenização rescisória 75% ? BEm;6038;;;NÃO
+Indenização rescisória 100% ? BEm;6039;;;NÃO
+Ind.rescisória 100% BEm Suspensão;6040;;;NÃO
+I.N.S.S. Férias Folha;9103;;;NÃO
+I.R. Férias Recolhido;9153;;;NÃO
+Pagamento - Verba 9153 IR férias recolhido;39153;;;NÃO
+Pagamento - Verba 9154 IR 13º salário;39154;;;NÃO
+Pagamento - Verba 9171 IR PLR;39171;;;NÃO
+Provisão - 13º salário;11000;;;NÃO
+Provisão - FGTS 13º;11001;;;NÃO
+Provisão - INSS 13º;11002;;;NÃO
+Provisão - FPAS 13º;11003;;;NÃO
+Provisão - RAT 13º;11004;;;NÃO
+Provisão - RAT aposentadoria 13º;11005;;;NÃO
+Provisão - PIS 13º;11006;;;NÃO
+Provisão - Férias;11100;;;NÃO
+Provisão - 1/3 Férias;11101;;;NÃO
+Provisão - FGTS Férias;11102;;;NÃO
+Provisão - INSS Férias;11103;;;NÃO
+Provisão - FPAS Férias;11104;;;NÃO
+Provisão - RAT Férias;11105;;;NÃO
+Provisão - RAT Aposentadoria PIS férias;11106;;;NÃO
+Provisão - PIS Férias;11107;;;NÃO
+Pagamento - FGTS 13º;12001;;;NÃO
+Pagamento - INSS 13º;12002;;;NÃO
+Pagamento - FPAS 13º;12003;;;NÃO
+Pagamento - RAT 13º;12004;;;NÃO
+Pagamento - RAT Aposentadoria 13º;12005;;;NÃO
+Pagamento - PIS 13º;12006;;;NÃO
+Pagamento - FGTS GRRF 13º;12007;;;NÃO
+Pagamento - FGTS Férias;12102;;;NÃO
+Pagamento - INSS Férias;12103;;;NÃO
+Pagamento - FPAS Férias;12104;;;NÃO
+Pagamento - RAT Férias;12105;;;NÃO
+Pagamento - RAT Aposentadoria Férias;12106;;;NÃO
+Pagamento - RAT PIS;12107;;;NÃO
+Pagamento - FGTS GRRF Férias;12109;;;NÃO
